@@ -53,14 +53,14 @@ export default function Navbar() {
         isVisible ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
       }`}
     >
-      <div className="backdrop-blur-md bg-white/10 border-b border-white/20 px-4 py-3 rounded-2xl">
+      <div className="backdrop-blur-md bg-white/10 border-b border-white/20 px-4 py-3 rounded-2xl relative">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="text-red-400">
+            <Link href="/" className="text-black">
               <div className="text-sm font-semibold tracking-wider">INDIAN</div>
-              <div className="text-xs text-black text-center">B2C</div>
-            </div>
+              <div className="text-xs text-gray-300 text-center">B2C</div>
+            </Link>
           </div>
 
           {/* Navigation */}
@@ -78,238 +78,9 @@ export default function Navbar() {
                 JEWELLERY
                 
               </Link>
-              {activeDropdown === "jewellery" && (
-                <div className="absolute top-8 left-96 transform -translate-x-1/2 mt-2 w-screen max-w-7xl backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20">
-                  <div className="grid grid-cols-5 gap-8">
-                    {/* NECKLACES */}
-                    <div>
-                      <h3 className="text-red-400 font-semibold mb-4 text-sm">NECKLACES</h3>
-                      <ul className="space-y-3">
-                        <li className="flex items-center space-x-3">
-                          <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
-                            <div className="w-4 h-4 border-2 border-gray-400 rounded-full"></div>
-                          </div>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                            Beaded Chokers
-                          </a>
-                        </li>
-                        <li className="flex items-center space-x-3">
-                          <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
-                            <div className="w-3 h-5 border-2 border-gray-400 rounded-b-full"></div>
-                          </div>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                            Beaded Pendants
-                          </a>
-                        </li>
-                        <li className="flex items-center space-x-3">
-                          <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
-                            <div className="w-5 h-2 border-2 border-gray-400 rounded-full"></div>
-                          </div>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                            Chokers
-                          </a>
-                        </li>
-                        <li className="flex items-center space-x-3">
-                          <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
-                            <div className="w-4 h-4 border-2 border-gray-400 rounded-full border-b-transparent"></div>
-                          </div>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                            U Necklaces
-                          </a>
-                        </li>
-                        <li className="flex items-center space-x-3">
-                          <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
-                            <div className="w-2 h-6 border-2 border-gray-400 rounded-full"></div>
-                          </div>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                            Long Necklaces
-                          </a>
-                        </li>
-                        <li className="flex items-center space-x-3">
-                          <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
-                            <div className="w-3 h-4 bg-gray-400 rounded-full"></div>
-                          </div>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                            Pendants
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-
-                    {/* EARRINGS */}
-                    <div>
-                      <h3 className="text-red-400 font-semibold mb-4 text-sm">EARRINGS</h3>
-                      <ul className="space-y-3">
-                        <li className="flex items-center space-x-3">
-                          <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
-                            <div className="w-4 h-4 border-2 border-gray-400 rounded-full relative">
-                              <div className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-2 h-2 border border-gray-400 rounded-full"></div>
-                            </div>
-                          </div>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                            Chandbalis
-                          </a>
-                        </li>
-                        <li className="flex items-center space-x-3">
-                          <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
-                            <div className="w-3 h-5 border-2 border-gray-400 rounded-b-full border-t-0"></div>
-                          </div>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                            Jhumkas
-                          </a>
-                        </li>
-                        <li className="flex items-center space-x-3">
-                          <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
-                            <div className="w-2 h-6 border-2 border-gray-400 rounded-full"></div>
-                          </div>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                            Long Earrings
-                          </a>
-                        </li>
-                        <li className="flex items-center space-x-3">
-                          <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
-                            <div className="w-3 h-3 bg-gray-400 rounded-full"></div>
-                          </div>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                            Tops
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-
-                    {/* ACCESSORIES */}
-                    <div>
-                      <h3 className="text-red-400 font-semibold mb-4 text-sm">ACCESSORIES</h3>
-                      <ul className="space-y-3">
-                        <li className="flex items-center space-x-3">
-                          <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
-                            <div className="w-5 h-5 border-2 border-gray-400 rounded-full"></div>
-                          </div>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                            Bangles
-                          </a>
-                        </li>
-                        <li className="flex items-center space-x-3">
-                          <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
-                            <div className="w-4 h-4 border-2 border-gray-400 rounded-full relative">
-                              <div className="absolute -top-1 left-1/2 transform -translate-x-1/2 w-1 h-2 bg-gray-400"></div>
-                            </div>
-                          </div>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                            Maangtikas
-                          </a>
-                        </li>
-                        <li className="flex items-center space-x-3">
-                          <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
-                            <div className="w-4 h-4 border-2 border-gray-400 rounded-full relative">
-                              <div className="absolute inset-1 bg-gray-400 rounded-full"></div>
-                            </div>
-                          </div>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                            Rings
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-
-                    {/* JEWELLERY SETS */}
-                    <div>
-                      <h3 className="text-red-400 font-semibold mb-4 text-sm">JEWELLERY SETS</h3>
-                      <ul className="space-y-3">
-                        <li>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
-                            Bead Choker Sets
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
-                            Choker Sets
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
-                            Necklace Sets
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
-                            Long Necklace Sets
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-
-                    {/* SHOP BY PRICE */}
-                    <div>
-                      <h3 className="text-red-400 font-semibold mb-4 text-sm">SHOP BY PRICE</h3>
-                      <div className="space-y-4">
-                        <div>
-                          <p className="text-xs text-gray-500 mb-2">Necklaces</p>
-                          <ul className="space-y-1">
-                            <li>
-                              <a href="#" className="text-gray-700 hover:text-red-400 text-xs transition-colors">
-                                Necklaces under Rs. 1,50,000
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#" className="text-gray-700 hover:text-red-400 text-xs transition-colors">
-                                Necklaces under Rs. 2,00,000
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#" className="text-gray-700 hover:text-red-400 text-xs transition-colors">
-                                Necklaces under Rs. 3,50,000
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div>
-                          <p className="text-xs text-gray-500 mb-2">Earrings</p>
-                          <ul className="space-y-1">
-                            <li>
-                              <a href="#" className="text-gray-700 hover:text-red-400 text-xs transition-colors">
-                                Earrings under Rs. 1,50,000
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#" className="text-gray-700 hover:text-red-400 text-xs transition-colors">
-                                Earrings under Rs. 2,50,000
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#" className="text-gray-700 hover:text-red-400 text-xs transition-colors">
-                                Earrings under Rs. 3,50,000
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div>
-                          <p className="text-xs text-gray-500 mb-2">Accessories</p>
-                          <ul className="space-y-1">
-                            <li>
-                              <a href="#" className="text-gray-700 hover:text-red-400 text-xs transition-colors">
-                                Accessories under Rs. 1,00,000
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#" className="text-gray-700 hover:text-red-400 text-xs transition-colors">
-                                Accessories under Rs. 2,00,000
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#" className="text-gray-700 hover:text-red-400 text-xs transition-colors">
-                                Accessories under Rs. 3,50,000
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              )}
             </div>
 
+            {/* Ready to Ship Dropdown */}
             <div
               className="relative"
               onMouseEnter={() => handleMouseEnter("readytoship")}
@@ -322,77 +93,6 @@ export default function Navbar() {
                 READY TO SHIP
                 
               </Link>
-              {activeDropdown === "readytoship" && (
-                <div className="absolute top-8 left-60 transform -translate-x-1/2 mt-2 w-screen max-w-7xl backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20">
-                  <div className="grid grid-cols-3 gap-8">
-                    {/* Left side - Navigation Links */}
-                    <div className="col-span-1">
-                      <h3 className="text-red-400 font-semibold mb-4 text-sm">READY TO SHIP</h3>
-                      <ul className="space-y-3">
-                        <li>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
-                            Necklaces
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
-                            Earrings
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
-                            Bangles
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
-                            Rings
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
-                            Accessories
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
-                            Jewelry Sets
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    {/* Right side - Images */}
-                    <div className="col-span-2 grid grid-cols-2 gap-4">
-                      <div className="relative group cursor-pointer">
-                        <div className="aspect-square bg-gradient-to-br from-amber-100 to-amber-200 rounded-lg overflow-hidden">
-                          <img
-                            src="/placeholder.svg?height=300&width=300"
-                            alt="Ready to Ship Necklaces"
-                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                          />
-                        </div>
-                        <div className="absolute bottom-4 left-4 text-black">
-                          <h4 className="font-semibold text-lg">NECKLACES</h4>
-                          <p className="text-sm opacity-90">Ready to Ship</p>
-                        </div>
-                      </div>
-                      <div className="relative group cursor-pointer">
-                        <div className="aspect-square bg-gradient-to-br from-rose-100 to-rose-200 rounded-lg overflow-hidden">
-                          <img
-                            src="/placeholder.svg?height=300&width=300"
-                            alt="Ready to Ship Earrings"
-                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                          />
-                        </div>
-                        <div className="absolute bottom-4 left-4 text-black">
-                          <h4 className="font-semibold text-lg">EARRINGS</h4>
-                          <p className="text-sm opacity-90">Ready to Ship</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              )}
             </div>
 
             {/* Bridal Dropdown */}
@@ -404,106 +104,6 @@ export default function Navbar() {
                 BRIDAL
                 
               </Link>
-              {activeDropdown === "bridal" && (
-                <div className="absolute top-8 left-36 transform -translate-x-1/2 mt-2 w-screen max-w-7xl backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20">
-                  <div className="grid grid-cols-3 gap-8">
-                    {/* Left side - Navigation Links */}
-                    <div className="col-span-1">
-                      <div className="space-y-6">
-                        <div>
-                          <h3 className="text-red-400 font-semibold mb-3 text-sm">BRIDAL SETS</h3>
-                          <ul className="space-y-2">
-                            <li>
-                              <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                                Sets Under Rs. 4,00,000
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                                Sets Under Rs. 8,00,000
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                                Sets Under Rs. 15,00,000
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div>
-                          <h3 className="text-red-400 font-semibold mb-3 text-sm">BRIDAL OCCASIONS</h3>
-                          <ul className="space-y-2">
-                            <li>
-                              <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                                Engagement
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                                Mehndi & Sangeet
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                                The Big Day
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                        <div>
-                          <h3 className="text-red-400 font-semibold mb-3 text-sm">SHOP BY CATEGORY</h3>
-                          <ul className="space-y-2">
-                            <li>
-                              <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                                Necklaces
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                                Earrings
-                              </a>
-                            </li>
-                            <li>
-                              <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                                Accessories
-                              </a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    {/* Right side - Images */}
-                    <div className="col-span-2 grid grid-cols-2 gap-4">
-                      <div className="relative group cursor-pointer">
-                        <div className="aspect-square bg-gradient-to-br from-emerald-100 to-emerald-200 rounded-lg overflow-hidden">
-                          <img
-                            src="/placeholder.svg?height=300&width=300"
-                            alt="Bridal Necklace Sets"
-                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                          />
-                        </div>
-                        <div className="absolute bottom-4 left-4 text-black">
-                          <h4 className="font-semibold text-lg">U NECKLACE</h4>
-                          <p className="text-sm opacity-90">Bridal Collection</p>
-                        </div>
-                      </div>
-                      <div className="relative group cursor-pointer">
-                        <div className="aspect-square bg-gradient-to-br from-purple-100 to-purple-200 rounded-lg overflow-hidden">
-                          <img
-                            src="/placeholder.svg?height=300&width=300"
-                            alt="Bridal Necklace Set"
-                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                          />
-                        </div>
-                        <div className="absolute bottom-4 left-4 text-black">
-                          <h4 className="font-semibold text-lg">U NECKLACE SET</h4>
-                          <p className="text-sm opacity-90">Bridal Collection</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              )}
             </div>
 
             {/* Collections Dropdown */}
@@ -519,37 +119,6 @@ export default function Navbar() {
                 COLLECTIONS
                 
               </a>
-              {activeDropdown === "collections" && (
-                <div className="absolute top-8 left-0 mt-2 w-[250px] backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-4 border border-white/20">
-                  <ul className="space-y-3">
-                    <li>
-                      <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
-                        Lumia by Tyaani
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
-                        Aurora by Tyaani
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
-                        Inaayt
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
-                        Bestsellers
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
-                        Gifting
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              )}
             </div>
 
             <a href="#" className="text-red-400 hover:text-red-300 text-sm font-medium transition-colors">
@@ -569,57 +138,6 @@ export default function Navbar() {
                 STORES
                 
               </a>
-              {activeDropdown === "stores" && (
-                <div className="absolute top-8 left-0 mt-2 w-[300px] backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-4 border border-white/20">
-                  <div className="grid grid-cols-2 gap-4">
-                    <div>
-                      <h3 className="text-red-400 font-semibold mb-3 text-sm">INDIA</h3>
-                      <ul className="space-y-2">
-                        <li>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                            Mumbai
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                            Delhi
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                            Bangalore
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                            Hyderabad
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div>
-                      <h3 className="text-red-400 font-semibold mb-3 text-sm">INTERNATIONAL</h3>
-                      <ul className="space-y-2">
-                        <li>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                            Dubai
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                            London
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                            New York
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              )}
             </div>
 
             {/* Forces of Tyaani Dropdown */}
@@ -631,37 +149,6 @@ export default function Navbar() {
                 FORCES OF TYAANI
                 
               </a>
-              {activeDropdown === "forces" && (
-                <div className="absolute top-8 left-0 mt-2 w-[250px] backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-4 border border-white/20">
-                  <ul className="space-y-3">
-                    <li>
-                      <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
-                        Maheep Kapoor
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
-                        Bhavana Pandey
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
-                        Seema Sajdeh
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
-                        Neelam Kothari
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
-                        Brand Ambassadors
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              )}
             </div>
           </nav>
 
@@ -684,6 +171,688 @@ export default function Navbar() {
             <ShoppingBag className="w-5 h-5 text-black hover:text-gray-300 transition-colors cursor-pointer" />
           </div>
         </div>
+
+        {/* Fixed Position Dropdowns - All positioned absolutely relative to the navbar container */}
+        {activeDropdown === "jewellery" && (
+          <div className="absolute top-full left-4 right-4 mt-2 backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20">
+            <div className="grid grid-cols-5 gap-8">
+              {/* NECKLACES */}
+              <div>
+                <h3 className="text-red-400 font-semibold mb-4 text-sm">NECKLACES</h3>
+                <ul className="space-y-3">
+                  <li className="flex items-center space-x-3">
+                    <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
+                      <div className="w-4 h-4 border-2 border-gray-400 rounded-full"></div>
+                    </div>
+                    <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                      Beaded Chokers
+                    </a>
+                  </li>
+                  <li className="flex items-center space-x-3">
+                    <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
+                      <div className="w-3 h-5 border-2 border-gray-400 rounded-b-full"></div>
+                    </div>
+                    <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                      Beaded Pendants
+                    </a>
+                  </li>
+                  <li className="flex items-center space-x-3">
+                    <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
+                      <div className="w-5 h-2 border-2 border-gray-400 rounded-full"></div>
+                    </div>
+                    <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                      Chokers
+                    </a>
+                  </li>
+                  <li className="flex items-center space-x-3">
+                    <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
+                      <div className="w-4 h-4 border-2 border-gray-400 rounded-full border-b-transparent"></div>
+                    </div>
+                    <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                      U Necklaces
+                    </a>
+                  </li>
+                  <li className="flex items-center space-x-3">
+                    <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
+                      <div className="w-2 h-6 border-2 border-gray-400 rounded-full"></div>
+                    </div>
+                    <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                      Long Necklaces
+                    </a>
+                  </li>
+                  <li className="flex items-center space-x-3">
+                    <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
+                      <div className="w-3 h-4 bg-gray-400 rounded-full"></div>
+                    </div>
+                    <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                      Pendants
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              {/* EARRINGS */}
+              <div>
+                <h3 className="text-red-400 font-semibold mb-4 text-sm">EARRINGS</h3>
+                <ul className="space-y-3">
+                  <li className="flex items-center space-x-3">
+                    <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
+                      <div className="w-4 h-4 border-2 border-gray-400 rounded-full relative">
+                        <div className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-2 h-2 border border-gray-400 rounded-full"></div>
+                      </div>
+                    </div>
+                    <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                      Chandbalis
+                    </a>
+                  </li>
+                  <li className="flex items-center space-x-3">
+                    <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
+                      <div className="w-3 h-5 border-2 border-gray-400 rounded-b-full border-t-0"></div>
+                    </div>
+                    <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                      Jhumkas
+                    </a>
+                  </li>
+                  <li className="flex items-center space-x-3">
+                    <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
+                      <div className="w-2 h-6 border-2 border-gray-400 rounded-full"></div>
+                    </div>
+                    <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                      Long Earrings
+                    </a>
+                  </li>
+                  <li className="flex items-center space-x-3">
+                    <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
+                      <div className="w-3 h-3 bg-gray-400 rounded-full"></div>
+                    </div>
+                    <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                      Tops
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              {/* ACCESSORIES */}
+              <div>
+                <h3 className="text-red-400 font-semibold mb-4 text-sm">ACCESSORIES</h3>
+                <ul className="space-y-3">
+                  <li className="flex items-center space-x-3">
+                    <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
+                      <div className="w-5 h-5 border-2 border-gray-400 rounded-full"></div>
+                    </div>
+                    <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                      Bangles
+                    </a>
+                  </li>
+                  <li className="flex items-center space-x-3">
+                    <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
+                      <div className="w-4 h-4 border-2 border-gray-400 rounded-full relative">
+                        <div className="absolute -top-1 left-1/2 transform -translate-x-1/2 w-1 h-2 bg-gray-400"></div>
+                      </div>
+                    </div>
+                    <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                      Maangtikas
+                    </a>
+                  </li>
+                  <li className="flex items-center space-x-3">
+                    <div className="w-8 h-8 bg-gray-100 rounded-full flex items-center justify-center">
+                      <div className="w-4 h-4 border-2 border-gray-400 rounded-full relative">
+                        <div className="absolute inset-1 bg-gray-400 rounded-full"></div>
+                      </div>
+                    </div>
+                    <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                      Rings
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              {/* JEWELLERY SETS */}
+              <div>
+                <h3 className="text-red-400 font-semibold mb-4 text-sm">JEWELLERY SETS</h3>
+                <ul className="space-y-3">
+                  <li>
+                    <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
+                      Bead Choker Sets
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
+                      Choker Sets
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
+                      Necklace Sets
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors block">
+                      Long Necklace Sets
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              {/* SHOP BY PRICE */}
+              <div>
+                <h3 className="text-red-400 font-semibold mb-4 text-sm">SHOP BY PRICE</h3>
+                <div className="space-y-4">
+                  <div>
+                    <p className="text-xs text-gray-500 mb-2">Necklaces</p>
+                    <ul className="space-y-1">
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-xs transition-colors">
+                          Necklaces under Rs. 1,50,000
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-xs transition-colors">
+                          Necklaces under Rs. 2,00,000
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-xs transition-colors">
+                          Necklaces under Rs. 3,50,000
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p className="text-xs text-gray-500 mb-2">Earrings</p>
+                    <ul className="space-y-1">
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-xs transition-colors">
+                          Earrings under Rs. 1,50,000
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-xs transition-colors">
+                          Earrings under Rs. 2,50,000
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-xs transition-colors">
+                          Earrings under Rs. 3,50,000
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p className="text-xs text-gray-500 mb-2">Accessories</p>
+                    <ul className="space-y-1">
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-xs transition-colors">
+                          Accessories under Rs. 1,00,000
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-xs transition-colors">
+                          Accessories under Rs. 2,00,000
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-xs transition-colors">
+                          Accessories under Rs. 3,50,000
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {activeDropdown === "readytoship" && (
+          <div className="absolute top-full left-4 right-4 mt-2 backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20">
+            <div className="grid grid-cols-3 gap-8">
+              {/* Left side - Navigation Links */}
+              <div className="col-span-1">
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-red-400 font-semibold mb-3 text-sm">READY TO SHIP</h3>
+                    <ul className="space-y-2">
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Necklaces
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Earrings
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Bangles
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Rings
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Accessories
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Jewelry Sets
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-red-400 font-semibold mb-3 text-sm">QUICK DELIVERY</h3>
+                    <ul className="space-y-2">
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Same Day Delivery
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Next Day Delivery
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Express Shipping
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              {/* Right side - Images */}
+              <div className="col-span-2 grid grid-cols-2 gap-4">
+                <div className="relative group cursor-pointer">
+                  <div className="aspect-square bg-gradient-to-br from-amber-100 to-amber-200 rounded-lg overflow-hidden">
+                    <img
+                      src="/placeholder.svg?height=300&width=300"
+                      alt="Ready to Ship Necklaces"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="absolute bottom-4 left-4 text-black">
+                    <h4 className="font-semibold text-lg">NECKLACES</h4>
+                    <p className="text-sm opacity-90">Ready to Ship</p>
+                  </div>
+                </div>
+                <div className="relative group cursor-pointer">
+                  <div className="aspect-square bg-gradient-to-br from-rose-100 to-rose-200 rounded-lg overflow-hidden">
+                    <img
+                      src="/placeholder.svg?height=300&width=300"
+                      alt="Ready to Ship Earrings"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="absolute bottom-4 left-4 text-black">
+                    <h4 className="font-semibold text-lg">EARRINGS</h4>
+                    <p className="text-sm opacity-90">Ready to Ship</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {activeDropdown === "bridal" && (
+          <div className="absolute top-full left-4 right-4 mt-2 backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20">
+            <div className="grid grid-cols-3 gap-8">
+              {/* Left side - Navigation Links */}
+              <div className="col-span-1">
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-red-400 font-semibold mb-3 text-sm">BRIDAL SETS</h3>
+                    <ul className="space-y-2">
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Sets Under Rs. 4,00,000
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Sets Under Rs. 8,00,000
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Sets Under Rs. 15,00,000
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-red-400 font-semibold mb-3 text-sm">BRIDAL OCCASIONS</h3>
+                    <ul className="space-y-2">
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Engagement
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Mehndi & Sangeet
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          The Big Day
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-red-400 font-semibold mb-3 text-sm">SHOP BY CATEGORY</h3>
+                    <ul className="space-y-2">
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Necklaces
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Earrings
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Accessories
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              {/* Right side - Images */}
+              <div className="col-span-2 grid grid-cols-2 gap-4">
+                <div className="relative group cursor-pointer">
+                  <div className="aspect-square bg-gradient-to-br from-emerald-100 to-emerald-200 rounded-lg overflow-hidden">
+                    <img
+                      src="/placeholder.svg?height=300&width=300"
+                      alt="Bridal Necklace Sets"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="absolute bottom-4 left-4 text-black">
+                    <h4 className="font-semibold text-lg">U NECKLACE</h4>
+                    <p className="text-sm opacity-90">Bridal Collection</p>
+                  </div>
+                </div>
+                <div className="relative group cursor-pointer">
+                  <div className="aspect-square bg-gradient-to-br from-purple-100 to-purple-200 rounded-lg overflow-hidden">
+                    <img
+                      src="/placeholder.svg?height=300&width=300"
+                      alt="Bridal Necklace Set"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="absolute bottom-4 left-4 text-black">
+                    <h4 className="font-semibold text-lg">U NECKLACE SET</h4>
+                    <p className="text-sm opacity-90">Bridal Collection</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {activeDropdown === "collections" && (
+          <div className="absolute top-full left-4 right-4 mt-2 backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20">
+            <div className="grid grid-cols-3 gap-8">
+              {/* Left side - Navigation Links */}
+              <div className="col-span-1">
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-red-400 font-semibold mb-3 text-sm">SIGNATURE COLLECTIONS</h3>
+                    <ul className="space-y-2">
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Lumia by Tyaani
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Aurora by Tyaani
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Inaayt
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-red-400 font-semibold mb-3 text-sm">SPECIAL COLLECTIONS</h3>
+                    <ul className="space-y-2">
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Bestsellers
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Gifting
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Limited Edition
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              {/* Right side - Images */}
+              <div className="col-span-2 grid grid-cols-2 gap-4">
+                <div className="relative group cursor-pointer">
+                  <div className="aspect-square bg-gradient-to-br from-blue-100 to-blue-200 rounded-lg overflow-hidden">
+                    <img
+                      src="/placeholder.svg?height=300&width=300"
+                      alt="Lumia Collection"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="absolute bottom-4 left-4 text-black">
+                    <h4 className="font-semibold text-lg">LUMIA</h4>
+                    <p className="text-sm opacity-90">Signature Collection</p>
+                  </div>
+                </div>
+                <div className="relative group cursor-pointer">
+                  <div className="aspect-square bg-gradient-to-br from-indigo-100 to-indigo-200 rounded-lg overflow-hidden">
+                    <img
+                      src="/placeholder.svg?height=300&width=300"
+                      alt="Aurora Collection"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="absolute bottom-4 left-4 text-black">
+                    <h4 className="font-semibold text-lg">AURORA</h4>
+                    <p className="text-sm opacity-90">Signature Collection</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {activeDropdown === "stores" && (
+          <div className="absolute top-full left-4 right-4 mt-2 backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20">
+            <div className="grid grid-cols-3 gap-8">
+              {/* Left side - Navigation Links */}
+              <div className="col-span-1">
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-red-400 font-semibold mb-3 text-sm">INDIA</h3>
+                    <ul className="space-y-2">
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Mumbai
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Delhi
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Bangalore
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Hyderabad
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-red-400 font-semibold mb-3 text-sm">INTERNATIONAL</h3>
+                    <ul className="space-y-2">
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Dubai
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          London
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          New York
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              {/* Right side - Images */}
+              <div className="col-span-2 grid grid-cols-2 gap-4">
+                <div className="relative group cursor-pointer">
+                  <div className="aspect-square bg-gradient-to-br from-orange-100 to-orange-200 rounded-lg overflow-hidden">
+                    <img
+                      src="/placeholder.svg?height=300&width=300"
+                      alt="Mumbai Store"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="absolute bottom-4 left-4 text-black">
+                    <h4 className="font-semibold text-lg">MUMBAI</h4>
+                    <p className="text-sm opacity-90">Flagship Store</p>
+                  </div>
+                </div>
+                <div className="relative group cursor-pointer">
+                  <div className="aspect-square bg-gradient-to-br from-teal-100 to-teal-200 rounded-lg overflow-hidden">
+                    <img
+                      src="/placeholder.svg?height=300&width=300"
+                      alt="Dubai Store"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="absolute bottom-4 left-4 text-black">
+                    <h4 className="font-semibold text-lg">DUBAI</h4>
+                    <p className="text-sm opacity-90">International Store</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {activeDropdown === "forces" && (
+          <div className="absolute top-full left-4 right-4 mt-2 backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20">
+            <div className="grid grid-cols-3 gap-8">
+              {/* Left side - Navigation Links */}
+              <div className="col-span-1">
+                <div className="space-y-6">
+                  <div>
+                    <h3 className="text-red-400 font-semibold mb-3 text-sm">BRAND AMBASSADORS</h3>
+                    <ul className="space-y-2">
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Maheep Kapoor
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Bhavana Pandey
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Seema Sajdeh
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Neelam Kothari
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 className="text-red-400 font-semibold mb-3 text-sm">COLLABORATIONS</h3>
+                    <ul className="space-y-2">
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Celebrity Collections
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Designer Partnerships
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
+                          Exclusive Launches
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              {/* Right side - Images */}
+              <div className="col-span-2 grid grid-cols-2 gap-4">
+                <div className="relative group cursor-pointer">
+                  <div className="aspect-square bg-gradient-to-br from-pink-100 to-pink-200 rounded-lg overflow-hidden">
+                    <img
+                      src="/placeholder.svg?height=300&width=300"
+                      alt="Maheep Kapoor"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="absolute bottom-4 left-4 text-black">
+                    <h4 className="font-semibold text-lg">MAHEEP KAPOOR</h4>
+                    <p className="text-sm opacity-90">Brand Ambassador</p>
+                  </div>
+                </div>
+                <div className="relative group cursor-pointer">
+                  <div className="aspect-square bg-gradient-to-br from-violet-100 to-violet-200 rounded-lg overflow-hidden">
+                    <img
+                      src="/placeholder.svg?height=300&width=300"
+                      alt="Celebrity Collection"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="absolute bottom-4 left-4 text-black">
+                    <h4 className="font-semibold text-lg">CELEBRITY</h4>
+                    <p className="text-sm opacity-90">Exclusive Collection</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </header>
   )
