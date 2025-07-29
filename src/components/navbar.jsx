@@ -1,6 +1,7 @@
 "use client"
 import { useState, useEffect, useRef } from "react" // Import useRef
 import { Search, Heart, User, ShoppingBag, Phone, ChevronDown } from "lucide-react"
+import Link from "next/link"
 
 export default function Navbar() {
   const [isVisible, setIsVisible] = useState(true)
@@ -70,13 +71,13 @@ export default function Navbar() {
               onMouseEnter={() => handleMouseEnter("jewellery")}
               onMouseLeave={handleMouseLeave}
             >
-              <a
-                href="#"
+              <Link
+                href="/products/jewellery"
                 className="text-black hover:text-red-400 text-sm font-medium transition-colors flex items-center"
               >
                 JEWELLERY
                 
-              </a>
+              </Link>
               {activeDropdown === "jewellery" && (
                 <div className="absolute top-8 left-96 transform -translate-x-1/2 mt-2 w-screen max-w-7xl backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20">
                   <div className="grid grid-cols-5 gap-8">
@@ -314,13 +315,13 @@ export default function Navbar() {
               onMouseEnter={() => handleMouseEnter("readytoship")}
               onMouseLeave={handleMouseLeave}
             >
-              <a
-                href="#"
+              <Link
+                href="/products/readytoship"
                 className="text-black hover:text-red-400 text-sm font-medium transition-colors flex items-center"
               >
                 READY TO SHIP
                 
-              </a>
+              </Link>
               {activeDropdown === "readytoship" && (
                 <div className="absolute top-8 left-60 transform -translate-x-1/2 mt-2 w-screen max-w-7xl backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20">
                   <div className="grid grid-cols-3 gap-8">
@@ -396,13 +397,13 @@ export default function Navbar() {
 
             {/* Bridal Dropdown */}
             <div className="relative" onMouseEnter={() => handleMouseEnter("bridal")} onMouseLeave={handleMouseLeave}>
-              <a
-                href="#"
+              <Link
+                href="/products/bridal"
                 className="text-black hover:text-red-400 text-sm font-medium transition-colors flex items-center"
               >
                 BRIDAL
                 
-              </a>
+              </Link>
               {activeDropdown === "bridal" && (
                 <div className="absolute top-8 left-36 transform -translate-x-1/2 mt-2 w-screen max-w-7xl backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20">
                   <div className="grid grid-cols-3 gap-8">

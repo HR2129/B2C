@@ -1,0 +1,494 @@
+{
+  "jewellery": {
+    "title": "Necklaces",
+    "subtitle": "1792 Styles",
+    "description": "Adorn yourself with Tyaani's exquisite collection of necklaces for women. Choose unique handcrafted pieces featuring certified gold, dazzling uncut diamonds, and vibrant gemstones. From delicate pendants, long necklaces, layered necklaces to statement chokers, find the perfect necklace to elevate any outfit. Explore intricate polki work and timeless designs that exude elegance. Each piece is meticulously crafted for lasting beauty. Shop our collection today and find your signature necklace - long necklaces,",
+    "categories": ["BEADED CHOKERS", "BEADED PENDANTS", "CHOKERS", "LONG NECKLACES", "U NECKLACES", "PENDANTS"],
+    "products": [
+      {
+        "id": 1,
+        "name": "Darshi Polki Choker",
+        "price": "₹ 948,400",
+        "image": "/placeholder.svg?height=400&width=300&text=Darshi+Polki+Choker",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 2,
+        "name": "Janhvi Kapoor - Aarushi Polki Choker",
+        "price": "₹ 500,700",
+        "image": "/placeholder.svg?height=400&width=300&text=Janhvi+Kapoor+Choker",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 3,
+        "name": "Althea Polki Choker",
+        "price": "₹ 610,900",
+        "image": "/placeholder.svg?height=400&width=300&text=Althea+Polki+Choker",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 4,
+        "name": "Regal Diamond Necklace",
+        "price": "₹ 1,250,000",
+        "image": "/placeholder.svg?height=400&width=300&text=Regal+Diamond+Necklace",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 5,
+        "name": "Vintage Pearl Choker",
+        "price": "₹ 425,600",
+        "image": "/placeholder.svg?height=400&width=300&text=Vintage+Pearl+Choker",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 6,
+        "name": "Emerald Statement Piece",
+        "price": "₹ 890,300",
+        "image": "/placeholder.svg?height=400&width=300&text=Emerald+Statement+Piece",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 7,
+        "name": "Royal Kundan Set",
+        "price": "₹ 1,450,000",
+        "image": "/placeholder.svg?height=400&width=300&text=Royal+Kundan+Set",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 8,
+        "name": "Traditional Gold Necklace",
+        "price": "₹ 675,800",
+        "image": "/placeholder.svg?height=400&width=300&text=Traditional+Gold+Necklace",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 9,
+        "name": "Diamond Layered Choker",
+        "price": "₹ 1,125,400",
+        "image": "/placeholder.svg?height=400&width=300&text=Diamond+Layered+Choker",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 10,
+        "name": "Antique Polki Necklace",
+        "price": "₹ 825,600",
+        "image": "/placeholder.svg?height=400&width=300&text=Antique+Polki+Necklace",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 11,
+        "name": "Ruby Studded Choker",
+        "price": "₹ 950,200",
+        "image": "/placeholder.svg?height=400&width=300&text=Ruby+Studded+Choker",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 12,
+        "name": "Pearl Drop Necklace",
+        "price": "₹ 385,900",
+        "image": "/placeholder.svg?height=400&width=300&text=Pearl+Drop+Necklace",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": "promo-1",
+        "isPromotional": true,
+        "title": "Need Help Choosing the Perfect Jewellery? We're Here to Assist You!",
+        "subtitle": "Chat with us on Whatsapp to get best prices, styling tips and much more!",
+        "buttonText": "LET'S CHAT",
+        "image": "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-iJkQysh53PVaFfVrIsJawhQLIycqEG.png",
+        "backgroundColor": "bg-pink-50"
+      },
+      {
+        "id": 13,
+        "name": "Sapphire Elegance Necklace",
+        "price": "₹ 1,175,300",
+        "image": "/placeholder.svg?height=400&width=300&text=Sapphire+Elegance+Necklace",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 14,
+        "name": "Gold Filigree Choker",
+        "price": "₹ 565,700",
+        "image": "/placeholder.svg?height=400&width=300&text=Gold+Filigree+Choker",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 15,
+        "name": "Temple Jewelry Set",
+        "price": "₹ 1,325,800",
+        "image": "/placeholder.svg?height=400&width=300&text=Temple+Jewelry+Set",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 16,
+        "name": "Modern Geometric Necklace",
+        "price": "₹ 445,200",
+        "image": "/placeholder.svg?height=400&width=300&text=Modern+Geometric+Necklace",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 17,
+        "name": "Bridal Polki Set",
+        "price": "₹ 2,150,000",
+        "image": "/placeholder.svg?height=400&width=300&text=Bridal+Polki+Set",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 18,
+        "name": "Delicate Chain Necklace",
+        "price": "₹ 285,400",
+        "image": "/placeholder.svg?height=400&width=300&text=Delicate+Chain+Necklace",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 19,
+        "name": "Victorian Style Choker",
+        "price": "₹ 875,600",
+        "image": "/placeholder.svg?height=400&width=300&text=Victorian+Style+Choker",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 20,
+        "name": "Contemporary Gold Necklace",
+        "price": "₹ 625,800",
+        "image": "/placeholder.svg?height=400&width=300&text=Contemporary+Gold+Necklace",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 21,
+        "name": "Floral Diamond Choker",
+        "price": "₹ 1,085,200",
+        "image": "/placeholder.svg?height=400&width=300&text=Floral+Diamond+Choker",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 22,
+        "name": "Heritage Kundan Necklace",
+        "price": "₹ 1,475,900",
+        "image": "/placeholder.svg?height=400&width=300&text=Heritage+Kundan+Necklace",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 23,
+        "name": "Minimalist Gold Chain",
+        "price": "₹ 195,300",
+        "image": "/placeholder.svg?height=400&width=300&text=Minimalist+Gold+Chain",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 24,
+        "name": "Ornate Bridal Choker",
+        "price": "₹ 1,825,700",
+        "image": "/placeholder.svg?height=400&width=300&text=Ornate+Bridal+Choker",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": "promo-2",
+        "isPromotional": true,
+        "title": "Discover Our Heritage Collection",
+        "subtitle": "Timeless pieces inspired by royal Indian traditions",
+        "buttonText": "EXPLORE HERITAGE",
+        "image": "/placeholder.svg?height=300&width=500&text=Heritage+Collection",
+        "backgroundColor": "bg-amber-50"
+      },
+      {
+        "id": 25,
+        "name": "Art Deco Necklace",
+        "price": "₹ 755,400",
+        "image": "/placeholder.svg?height=400&width=300&text=Art+Deco+Necklace",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 26,
+        "name": "Layered Pearl Choker",
+        "price": "₹ 485,600",
+        "image": "/placeholder.svg?height=400&width=300&text=Layered+Pearl+Choker",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 27,
+        "name": "Emerald Cut Diamond Set",
+        "price": "₹ 2,275,800",
+        "image": "/placeholder.svg?height=400&width=300&text=Emerald+Cut+Diamond+Set",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 28,
+        "name": "Traditional Mala Necklace",
+        "price": "₹ 365,200",
+        "image": "/placeholder.svg?height=400&width=300&text=Traditional+Mala+Necklace",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 29,
+        "name": "Luxury Statement Piece",
+        "price": "₹ 3,125,000",
+        "image": "/placeholder.svg?height=400&width=300&text=Luxury+Statement+Piece",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      },
+      {
+        "id": 30,
+        "name": "Classic Pendant Necklace",
+        "price": "₹ 425,700",
+        "image": "/placeholder.svg?height=400&width=300&text=Classic+Pendant+Necklace",
+        "badge": "MADE TO ORDER",
+        "isPromotional": false
+      }
+    ]
+  },
+  "readytoship": {
+    "title": "Ready to Ship",
+    "subtitle": "856 Styles",
+    "description": "Discover our ready-to-ship collection featuring stunning jewelry pieces that can be delivered immediately. Each piece is carefully curated and available for instant purchase. From elegant necklaces to statement earrings, find your perfect piece without the wait.",
+    "categories": ["NECKLACES", "EARRINGS", "BANGLES", "RINGS", "ACCESSORIES", "JEWELRY SETS"],
+    "products": [
+      {
+        "id": 31,
+        "name": "Classic Gold Chain",
+        "price": "₹ 125,400",
+        "image": "/placeholder.svg?height=400&width=300&text=Classic+Gold+Chain",
+        "badge": "READY TO SHIP",
+        "isPromotional": false
+      },
+      {
+        "id": 32,
+        "name": "Diamond Stud Earrings",
+        "price": "₹ 89,700",
+        "image": "/placeholder.svg?height=400&width=300&text=Diamond+Stud+Earrings",
+        "badge": "READY TO SHIP",
+        "isPromotional": false
+      },
+      {
+        "id": 33,
+        "name": "Pearl Bracelet Set",
+        "price": "₹ 45,900",
+        "image": "/placeholder.svg?height=400&width=300&text=Pearl+Bracelet+Set",
+        "badge": "READY TO SHIP",
+        "isPromotional": false
+      },
+      {
+        "id": 34,
+        "name": "Silver Hoop Earrings",
+        "price": "₹ 35,200",
+        "image": "/placeholder.svg?height=400&width=300&text=Silver+Hoop+Earrings",
+        "badge": "READY TO SHIP",
+        "isPromotional": false
+      },
+      {
+        "id": 35,
+        "name": "Gold Bangle Set",
+        "price": "₹ 185,600",
+        "image": "/placeholder.svg?height=400&width=300&text=Gold+Bangle+Set",
+        "badge": "READY TO SHIP",
+        "isPromotional": false
+      },
+      {
+        "id": 36,
+        "name": "Simple Ring Collection",
+        "price": "₹ 65,800",
+        "image": "/placeholder.svg?height=400&width=300&text=Simple+Ring+Collection",
+        "badge": "READY TO SHIP",
+        "isPromotional": false
+      },
+      {
+        "id": 37,
+        "name": "Everyday Pendant",
+        "price": "₹ 75,400",
+        "image": "/placeholder.svg?height=400&width=300&text=Everyday+Pendant",
+        "badge": "READY TO SHIP",
+        "isPromotional": false
+      },
+      {
+        "id": 38,
+        "name": "Tennis Bracelet",
+        "price": "₹ 225,900",
+        "image": "/placeholder.svg?height=400&width=300&text=Tennis+Bracelet",
+        "badge": "READY TO SHIP",
+        "isPromotional": false
+      },
+      {
+        "id": 39,
+        "name": "Drop Earrings",
+        "price": "₹ 95,300",
+        "image": "/placeholder.svg?height=400&width=300&text=Drop+Earrings",
+        "badge": "READY TO SHIP",
+        "isPromotional": false
+      },
+      {
+        "id": "promo-3",
+        "isPromotional": true,
+        "title": "Fast Delivery Available!",
+        "subtitle": "Get your favorite pieces delivered within 24-48 hours",
+        "buttonText": "SHOP NOW",
+        "image": "/placeholder.svg?height=300&width=500&text=Fast+Delivery",
+        "backgroundColor": "bg-green-50"
+      },
+      {
+        "id": 40,
+        "name": "Statement Ring",
+        "price": "₹ 155,700",
+        "image": "/placeholder.svg?height=400&width=300&text=Statement+Ring",
+        "badge": "READY TO SHIP",
+        "isPromotional": false
+      },
+      {
+        "id": 41,
+        "name": "Delicate Anklet",
+        "price": "₹ 25,600",
+        "image": "/placeholder.svg?height=400&width=300&text=Delicate+Anklet",
+        "badge": "READY TO SHIP",
+        "isPromotional": false
+      },
+      {
+        "id": 42,
+        "name": "Charm Bracelet",
+        "price": "₹ 115,800",
+        "image": "/placeholder.svg?height=400&width=300&text=Charm+Bracelet",
+        "badge": "READY TO SHIP",
+        "isPromotional": false
+      }
+    ]
+  },
+  "bridal": {
+    "title": "Bridal Collection",
+    "subtitle": "1245 Styles",
+    "description": "Make your special day unforgettable with our exquisite bridal jewelry collection. From traditional sets to contemporary designs, each piece is crafted to make you shine on your wedding day. Discover necklace sets, earrings, and accessories that complement your bridal attire perfectly.",
+    "categories": ["BRIDAL SETS", "ENGAGEMENT", "MEHNDI & SANGEET", "THE BIG DAY", "NECKLACES", "EARRINGS"],
+    "products": [
+      {
+        "id": 43,
+        "name": "Royal Bridal Set",
+        "price": "₹ 2,450,000",
+        "image": "/placeholder.svg?height=400&width=300&text=Royal+Bridal+Set",
+        "badge": "BRIDAL EXCLUSIVE",
+        "isPromotional": false
+      },
+      {
+        "id": 44,
+        "name": "Traditional Kundan Necklace",
+        "price": "₹ 1,890,700",
+        "image": "/placeholder.svg?height=400&width=300&text=Traditional+Kundan+Necklace",
+        "badge": "BRIDAL EXCLUSIVE",
+        "isPromotional": false
+      },
+      {
+        "id": 45,
+        "name": "Elegant Bridal Choker",
+        "price": "₹ 1,250,900",
+        "image": "/placeholder.svg?height=400&width=300&text=Elegant+Bridal+Choker",
+        "badge": "BRIDAL EXCLUSIVE",
+        "isPromotional": false
+      },
+      {
+        "id": 46,
+        "name": "Diamond Bridal Tiara",
+        "price": "₹ 3,125,600",
+        "image": "/placeholder.svg?height=400&width=300&text=Diamond+Bridal+Tiara",
+        "badge": "BRIDAL EXCLUSIVE",
+        "isPromotional": false
+      },
+      {
+        "id": 47,
+        "name": "Pearl Wedding Set",
+        "price": "₹ 1,675,400",
+        "image": "/placeholder.svg?height=400&width=300&text=Pearl+Wedding+Set",
+        "badge": "BRIDAL EXCLUSIVE",
+        "isPromotional": false
+      },
+      {
+        "id": 48,
+        "name": "Gold Bridal Bangles",
+        "price": "₹ 985,200",
+        "image": "/placeholder.svg?height=400&width=300&text=Gold+Bridal+Bangles",
+        "badge": "BRIDAL EXCLUSIVE",
+        "isPromotional": false
+      },
+      {
+        "id": 49,
+        "name": "Engagement Ring Set",
+        "price": "₹ 1,425,800",
+        "image": "/placeholder.svg?height=400&width=300&text=Engagement+Ring+Set",
+        "badge": "BRIDAL EXCLUSIVE",
+        "isPromotional": false
+      },
+      {
+        "id": 50,
+        "name": "Mehndi Jewelry Set",
+        "price": "₹ 875,300",
+        "image": "/placeholder.svg?height=400&width=300&text=Mehndi+Jewelry+Set",
+        "badge": "BRIDAL EXCLUSIVE",
+        "isPromotional": false
+      },
+      {
+        "id": 51,
+        "name": "Sangeet Earrings",
+        "price": "₹ 565,700",
+        "image": "/placeholder.svg?height=400&width=300&text=Sangeet+Earrings",
+        "badge": "BRIDAL EXCLUSIVE",
+        "isPromotional": false
+      },
+      {
+        "id": "promo-4",
+        "isPromotional": true,
+        "title": "Bridal Consultation Available",
+        "subtitle": "Book a personal styling session with our bridal experts",
+        "buttonText": "BOOK CONSULTATION",
+        "image": "/placeholder.svg?height=300&width=500&text=Bridal+Consultation",
+        "backgroundColor": "bg-rose-50"
+      },
+      {
+        "id": 52,
+        "name": "Wedding Day Necklace",
+        "price": "₹ 2,125,900",
+        "image": "/placeholder.svg?height=400&width=300&text=Wedding+Day+Necklace",
+        "badge": "BRIDAL EXCLUSIVE",
+        "isPromotional": false
+      },
+      {
+        "id": 53,
+        "name": "Bridal Nose Ring",
+        "price": "₹ 285,400",
+        "image": "/placeholder.svg?height=400&width=300&text=Bridal+Nose+Ring",
+        "badge": "BRIDAL EXCLUSIVE",
+        "isPromotional": false
+      },
+      {
+        "id": 54,
+        "name": "Complete Bridal Set",
+        "price": "₹ 4,875,000",
+        "image": "/placeholder.svg?height=400&width=300&text=Complete+Bridal+Set",
+        "badge": "BRIDAL EXCLUSIVE",
+        "isPromotional": false
+      }
+    ]
+  }
+}
