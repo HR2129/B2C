@@ -8,38 +8,21 @@ export default function ScrollingContent() {
       id: 1,
       name: "Curved Engraved Sun Stacking Ring",
       price: "$1,500.00",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "https://www.artemerstudio.com/cdn/shop/files/Sunbeam-Minimalist-18K-Gold-Ball-Earrings-Packshot-Side.jpg?v=1752485431",
     },
     {
       id: 2,
       name: "Sunbeam Minimalist 18K Gold Ball Earrings",
       price: "from $600.00",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "https://www.artemerstudio.com/cdn/shop/files/Gold-Embroidery-Pattern-Band-with-Roosters-_-Rubies-Packshot.jpg?v=1752472427",
     },
     {
       id: 3,
       name: "Gold Embroidery Pattern Band with Roosters & Rubies",
       price: "$3,100.00",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "https://www.artemerstudio.com/cdn/shop/files/Blue-Mist-East---West-Oval-Milky-Sapphire-Ring-Packshot.jpg?v=1751542180",
     },
-    {
-      id: 4, // Keeping more products in the array for flexibility, but only showing first 3
-      name: "Diamond Cluster Pendant Necklace",
-      price: "$2,200.00",
-      image: "/placeholder.svg?height=300&width=300",
-    },
-    {
-      id: 5,
-      name: "Geometric Sapphire Studs",
-      price: "$950.00",
-      image: "/placeholder.svg?height=300&width=300",
-    },
-    {
-      id: 6,
-      name: "Delicate Pearl Bracelet",
-      price: "$750.00",
-      image: "/placeholder.svg?height=300&width=300",
-    },
+
   ]
 
   // Removed carousel-specific functions and useEffect

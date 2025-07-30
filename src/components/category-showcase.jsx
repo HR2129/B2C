@@ -37,9 +37,9 @@ export default function CategoryShowcase() {
 
   return (
     <section className="bg-white py-16 lg:py-24 ">
-      <div className="max-w-7xl mx-auto px-4 lg:px-8">
+      <div className=" px-4 lg:px-8">
         {/* Shop by Categories Title */}
-        <div className="text-center mb-12">
+        <div className="max-w-7xl mx-auto text-center mb-12">
           <h2 className="text-4xl lg:text-5xl font-light text-gray-800">
             <span className="font-serif italic text-red-400/70 mr-2">Shop by</span>
             <span className="font-serif font-normal text-gray-900">Categories</span>
@@ -48,11 +48,11 @@ export default function CategoryShowcase() {
         </div>
 
         {/* Category Grid */}
-        <div className="flex flex-wrap justify-center items-center gap-6 mb-20">
+        <div className="flex max-lg:flex-wrap justify-center items-center gap-6 mb-20 p-10">
           {categories.map((category, index) => (
             <div
               key={index}
-              className="relative h-[30rem] w-[20rem] rounded-lg overflow-hidden shadow-lg aspect-square group cursor-pointer drop-shadow-lg"
+              className="relative h-[24rem] w-[25rem] rounded-lg overflow-hidden shadow-lg aspect-square group cursor-pointer drop-shadow-lg"
             >
               <Image
                 src={category.image || "/placeholder.svg"}
