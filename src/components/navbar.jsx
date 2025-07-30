@@ -32,19 +32,35 @@ export default function Navbar() {
     }
   }, [lastScrollY])
 
-  const handleMouseEnter = (dropdown) => {
+ const handleMouseEnter = (dropdown) => {
     // Clear any existing timeout to prevent it from closing
     if (dropdownTimeoutRef.current) {
       clearTimeout(dropdownTimeoutRef.current)
+      dropdownTimeoutRef.current = null
     }
     setActiveDropdown(dropdown)
   }
 
   const handleMouseLeave = () => {
-    // Set a timeout to close the dropdown after a short delay
+    // Set a timeout to close the dropdown after a delay
     dropdownTimeoutRef.current = setTimeout(() => {
       setActiveDropdown(null)
-    }, 150) // 150ms delay
+    }, 300) // Increased delay to 300ms for better UX
+  }
+
+  const handleDropdownMouseEnter = () => {
+    // Clear timeout when mouse enters dropdown content
+    if (dropdownTimeoutRef.current) {
+      clearTimeout(dropdownTimeoutRef.current)
+      dropdownTimeoutRef.current = null
+    }
+  }
+
+  const handleDropdownMouseLeave = () => {
+    // Close dropdown when mouse leaves dropdown content
+    dropdownTimeoutRef.current = setTimeout(() => {
+      setActiveDropdown(null)
+    }, 150)
   }
 
   return (
@@ -76,7 +92,6 @@ export default function Navbar() {
                 className="text-black hover:text-red-400 text-sm font-medium transition-colors flex items-center"
               >
                 JEWELLERY
-                
               </Link>
             </div>
 
@@ -174,7 +189,8 @@ export default function Navbar() {
 
         {/* Fixed Position Dropdowns - All positioned absolutely relative to the navbar container */}
         {activeDropdown === "jewellery" && (
-          <div className="absolute top-full left-4 right-4 mt-2 backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20">
+          <div className="absolute top-full left-4 right-4 mt-2 backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20" onMouseEnter={handleDropdownMouseEnter}
+            onMouseLeave={handleDropdownMouseLeave}>
             <div className="grid grid-cols-5 gap-8">
               {/* NECKLACES */}
               <div>
@@ -405,7 +421,8 @@ export default function Navbar() {
         )}
 
         {activeDropdown === "readytoship" && (
-          <div className="absolute top-full left-4 right-4 mt-2 backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20">
+          <div className="absolute top-full left-4 right-4 mt-2 backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20" onMouseEnter={handleDropdownMouseEnter}
+            onMouseLeave={handleDropdownMouseLeave}>
             <div className="grid grid-cols-3 gap-8">
               {/* Left side - Navigation Links */}
               <div className="col-span-1">
@@ -501,7 +518,8 @@ export default function Navbar() {
         )}
 
         {activeDropdown === "bridal" && (
-          <div className="absolute top-full left-4 right-4 mt-2 backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20">
+          <div className="absolute top-full left-4 right-4 mt-2 backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20" onMouseEnter={handleDropdownMouseEnter}
+            onMouseLeave={handleDropdownMouseLeave}>
             <div className="grid grid-cols-3 gap-8">
               {/* Left side - Navigation Links */}
               <div className="col-span-1">
@@ -602,7 +620,8 @@ export default function Navbar() {
         )}
 
         {activeDropdown === "collections" && (
-          <div className="absolute top-full left-4 right-4 mt-2 backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20">
+          <div className="absolute top-full left-4 right-4 mt-2 backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20" onMouseEnter={handleDropdownMouseEnter}
+            onMouseLeave={handleDropdownMouseLeave}>
             <div className="grid grid-cols-3 gap-8">
               {/* Left side - Navigation Links */}
               <div className="col-span-1">
@@ -683,7 +702,8 @@ export default function Navbar() {
         )}
 
         {activeDropdown === "stores" && (
-          <div className="absolute top-full left-4 right-4 mt-2 backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20">
+          <div className="absolute top-full left-4 right-4 mt-2 backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20" onMouseEnter={handleDropdownMouseEnter}
+            onMouseLeave={handleDropdownMouseLeave}>
             <div className="grid grid-cols-3 gap-8">
               {/* Left side - Navigation Links */}
               <div className="col-span-1">
@@ -769,7 +789,8 @@ export default function Navbar() {
         )}
 
         {activeDropdown === "forces" && (
-          <div className="absolute top-full left-4 right-4 mt-2 backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20">
+          <div className="absolute top-full left-4 right-4 mt-2 backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20" onMouseEnter={handleDropdownMouseEnter}
+            onMouseLeave={handleDropdownMouseLeave}>
             <div className="grid grid-cols-3 gap-8">
               {/* Left side - Navigation Links */}
               <div className="col-span-1">

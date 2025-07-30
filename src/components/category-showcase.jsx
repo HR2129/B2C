@@ -27,6 +27,12 @@ export default function CategoryShowcase() {
       gradientFrom: "from-rose-800",
       gradientTo: "to-rose-950",
     },
+    {
+      name: "PENDANT",
+      image: "https://www.zivar.in/cdn/shop/products/auria-diamond-pendant-259301.jpg?v=1638186944&width=1445",
+      gradientFrom: "from-rose-800",
+      gradientTo: "to-rose-950",
+    },
   ]
 
   return (
@@ -42,17 +48,17 @@ export default function CategoryShowcase() {
         </div>
 
         {/* Category Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-20">
+        <div className="flex flex-wrap justify-center items-center gap-6 mb-20">
           {categories.map((category, index) => (
             <div
               key={index}
-              className="relative rounded-lg overflow-hidden shadow-lg aspect-square group cursor-pointer drop-shadow-lg"
+              className="relative h-[30rem] w-[20rem] rounded-lg overflow-hidden shadow-lg aspect-square group cursor-pointer drop-shadow-lg"
             >
               <Image
                 src={category.image || "/placeholder.svg"}
                 alt={category.name}
-                fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
+               fill
+                className="object-cover  transition-transform duration-300 group-hover:scale-105"
               />
               {/* Added a subtle overlay that darkens on hover */}
               <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-all duration-300"></div>

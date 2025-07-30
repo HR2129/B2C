@@ -1,6 +1,6 @@
 import CategoryShowcase from "@/components/category-showcase"
 import HandcraftedSection from "@/components/handcrafted-section"
-import ProductListing from "@/components/product-listing"
+import ScrollingContent from "@/components/scrolling-content"
 import { VideoShowcase } from "@/components/video-showcase"
 
 
@@ -44,8 +44,9 @@ export default function Home() {
       <CategoryShowcase/>
       <hr className="max-w-7xl mx-auto"/>
       <VideoShowcase/>
+      <ScrollingContent/>
       <HandcraftedSection/>
-      <ProductListing category="jewellery"/>
+
     </div>
   )
 }

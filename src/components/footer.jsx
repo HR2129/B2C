@@ -11,11 +11,11 @@ export default function Footer() {
     <footer
       className="w-full text-[#182147] font-sans"
       style={{
-        background: "linear-gradient(to bottom, white 0%, #faf0e6 100%)",
+       backgroundImage: "url(https://www.artemerstudio.com/cdn/shop/files/footer-texture.jpg?v=1627477222)",
         transition: "background 0.5s",
       }}
     >
-      <hr className="max-w-[100rem] mx-auto text-[#d8d8d8]" />
+      {/* <hr className="max-w-[100rem] mx-auto text-[#d8d8d8]" /> */}
       {/* Top Info Bar */}
       <div className="w-full flex flex-wrap justify-center gap-y-6 px-2 py-8 border-b border-[#ececec]">
         <FooterInfoBar />
@@ -23,7 +23,7 @@ export default function Footer() {
       {/* Main Footer */}
       <div className="flex flex-col md:flex-row w-full">
         {/* Left: Logo */}
-        <div className="flex-1 bg-[#16254a] flex items-center justify-center py-10 md:py-16 min-h-[200px] md:min-h-[320px]">
+        <div className="flex-1 flex items-center justify-center py-10 md:py-16 min-h-[200px] md:min-h-[320px]">
           <div className="flex flex-col items-center">
             {/* SVG or your logo image */}
             <svg
@@ -34,13 +34,13 @@ export default function Footer() {
               xmlns="http://www.w3.org/2000/svg"
               className="sm:w-[120px] sm:h-[60px]"
             >
-              <circle cx="42" cy="31" r="16" stroke="#fff" strokeWidth="3" />
-              <circle cx="68" cy="31" r="16" stroke="#fff" strokeWidth="3" />
+              <circle cx="42" cy="31" r="16" stroke="#000" strokeWidth="3" />
+              <circle cx="68" cy="31" r="16" stroke="#000" strokeWidth="3" />
             </svg>
-            <span className="mt-4 sm:mt-6 text-2xl sm:text-3xl tracking-[0.3em] text-white font-light">
+            <span className="mt-4 sm:mt-6 text-2xl sm:text-3xl tracking-[0.3em] text-black font-light">
               INDIAN
             </span>
-            <span className="mt-1 sm:mt-2 text-xs tracking-widest text-white/80">
+            <span className="mt-1 sm:mt-2 text-xs tracking-widest text-black/80">
               B2C
             </span>
           </div>
