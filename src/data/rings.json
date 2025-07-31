@@ -1,0 +1,1392 @@
+[
+  {
+    "id": 1,
+    "name": "Aurora",
+    "slug": "aurora",
+    "price": 4315,
+    "originalPrice": 5170,
+    "discount": "40% off",
+    "sku": "LG9978W14",
+    "totalCarat": "0.3 Carat",
+    "shipsIn": "2-4 weeks",
+    "description": "A gorgeous diamond ring, style with clean and sparkly diamonds. 0.30 Carat D-E VS Diamonds.",
+    "story": "Reconsider the preset of letter bracelets. A gorgeous diamond Bracelet, style with 'A' Letter set with clean and sparkly diamonds. 0.30 Carat D-E VS Diamonds.",
+    "images": [
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Traditional_Solitaire_Engagement_Ring_37767f71-6ac9-4330-ac58-594f919930c8_400x.png?v=1745942784",
+        "shape": "round",
+        "metal": "yellow gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Traditional_Solitaire_Engagement_Ring_37767f71-6ac9-4330-ac58-594f919930c8_100x.png?v=1745942784"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Beloved_Wedding_Band_1ed0f943-8409-4da9-b173-59209f7de2cf_400x.png?v=1745942818",
+        "shape": "princess",
+        "metal": "yellow gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Beloved_Wedding_Band_1ed0f943-8409-4da9-b173-59209f7de2cf_100x.png?v=1745942818"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Six-Stone_Round_Band_94d17d15-7623-4e96-ab8c-07fd91a74ab4_400x.png?v=1748034200",
+        "shape": "round",
+        "metal": "white gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Six-Stone_Round_Band_94d17d15-7623-4e96-ab8c-07fd91a74ab4_100x.png?v=1748034200"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Traditional_Solitaire_Engagement_Ring_37767f71-6ac9-4330-ac58-594f919930c8_400x.png?v=1745942784",
+        "shape": "round",
+        "metal": "rose gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Traditional_Solitaire_Engagement_Ring_37767f71-6ac9-4330-ac58-594f919930c8_100x.png?v=1745942784"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Six-Stone_Round_Band_94d17d15-7623-4e96-ab8c-07fd91a74ab4_400x.png?v=1748034200",
+        "shape": "emerald",
+        "metal": "platinum",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Six-Stone_Round_Band_94d17d15-7623-4e96-ab8c-07fd91a74ab4_100x.png?v=1748034200"
+      }
+    ],
+    "carats": ["1", "1.5", "2", "2.5", "3"],
+    "metals": [
+      { "name": "14K White Gold", "value": "white gold" },
+      { "name": "14K Yellow Gold", "value": "yellow gold" },
+      { "name": "14K Rose Gold", "value": "rose gold" },
+      { "name": "Platinum", "value": "platinum" }
+    ],
+    "settings": {
+      "metal": "14K WHITE GOLD",
+      "style": "SIDE STONES",
+      "sustainableEthical": "Sustainable, ethical, and recycled",
+      "trendyAppearance": "Trendy appearance",
+      "accentGems": "Ancient Gems",
+      "sideDiamondsWeight": "Side Diamonds Weight",
+      "sideDiamondsQuality": "D-E / VS",
+      "sideDiamondsOrigin": "LAB GROWN",
+      "superiorGrade": "Superior grade",
+      "ecoFriendlyDiamond": "Eco-friendly diamond"
+    },
+    "features": [
+      "Free 30 Days Returns",
+      "Our Price includes Metal & Stones",
+      "Transparent Quality & reliable certification",
+      "Free safe shipping - Most delivery within 2-4 weeks",
+      "Contact us and let us check what we can do for you"
+    ],
+    "freeGift": {
+      "title": "Complimentary Pearl Earrings with Orders Over $3,000",
+      "value": "$280 USD",
+      "image": "/placeholder.svg?height=50&width=50"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Celestial",
+    "slug": "celestial",
+    "price": 5200,
+    "originalPrice": 6240,
+    "discount": "35% off",
+    "sku": "LG9979W14",
+    "totalCarat": "0.5 Carat",
+    "shipsIn": "3-5 weeks",
+    "description": "An elegant celestial-inspired ring with emerald and asscher cuts. Premium quality lab-grown diamonds.",
+    "story": "Inspired by the celestial beauty of stars and constellations. This ring captures the essence of cosmic elegance with its precise cuts and brilliant sparkle.",
+    "images": [
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/products/Coil-DiamondAccented-Pinky-Ring-YG-Webwhite-002_500x.jpg?v=1664577338",
+        "shape": "emerald",
+        "metal": "platinum",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/products/Coil-DiamondAccented-Pinky-Ring-YG-Webwhite-002_100x.jpg?v=1664577338"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/products/Venetian-Stackable-Band-AccentedDiamond-RG-Webwhite-002_de333038-ce4b-48bf-9b0f-be4039434c5e_500x.jpg?v=1663179533",
+        "shape": "asscher",
+        "metal": "white gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/products/Venetian-Stackable-Band-AccentedDiamond-RG-Webwhite-002_de333038-ce4b-48bf-9b0f-be4039434c5e_100x.jpg?v=1663179533"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "round",
+        "metal": "yellow gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      }
+    ],
+    "carats": ["1", "2", "3"],
+    "metals": [
+      { "name": "Platinum", "value": "platinum" },
+      { "name": "14K White Gold", "value": "white gold" },
+      { "name": "14K Rose Gold", "value": "rose gold" }
+    ],
+    "settings": {
+      "metal": "PLATINUM",
+      "style": "CLASSIC SOLITAIRE",
+      "sustainableEthical": "Sustainable, ethical, and recycled",
+      "trendyAppearance": "Timeless elegance",
+      "accentGems": "Premium Gems",
+      "sideDiamondsWeight": "Side Diamonds Weight",
+      "sideDiamondsQuality": "D-E / VVS",
+      "sideDiamondsOrigin": "LAB GROWN",
+      "superiorGrade": "Superior grade",
+      "ecoFriendlyDiamond": "Eco-friendly diamond"
+    },
+    "features": [
+      "Free 30 Days Returns",
+      "Our Price includes Metal & Stones",
+      "Transparent Quality & reliable certification",
+      "Free safe shipping - Most delivery within 3-5 weeks",
+      "Contact us and let us check what we can do for you"
+    ],
+    "freeGift": {
+      "title": "Complimentary Pearl Earrings with Orders Over $3,000",
+      "value": "$280 USD",
+      "image": "/placeholder.svg?height=50&width=50"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Radiance",
+    "slug": "radiance",
+    "price": 3800,
+    "originalPrice": 4560,
+    "discount": "30% off",
+    "sku": "LG9980W14",
+    "totalCarat": "0.4 Carat",
+    "shipsIn": "2-3 weeks",
+    "description": "A radiant ring with oval and pear cuts. Exceptional brilliance and fire.",
+    "story": "Crafted to capture and reflect light from every angle, the Radiance collection embodies the perfect balance of modern design and timeless elegance.",
+    "images": [
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "oval",
+        "metal": "rose gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/venetian-stackable-band-whitegold-001-web.jpg?width=600",
+        "shape": "pear",
+        "metal": "yellow gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/venetian-stackable-band-whitegold-001-web.jpg?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "round",
+        "metal": "white gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      }
+    ],
+    "carats": ["0.5", "1", "1.5", "2"],
+    "metals": [
+      { "name": "14K Rose Gold", "value": "rose gold" },
+      { "name": "14K Yellow Gold", "value": "yellow gold" },
+      { "name": "14K White Gold", "value": "white gold" }
+    ],
+    "settings": {
+      "metal": "14K ROSE GOLD",
+      "style": "VINTAGE INSPIRED",
+      "sustainableEthical": "Sustainable, ethical, and recycled",
+      "trendyAppearance": "Vintage charm",
+      "accentGems": "Vintage Gems",
+      "sideDiamondsWeight": "Side Diamonds Weight",
+      "sideDiamondsQuality": "D-E / VS",
+      "sideDiamondsOrigin": "LAB GROWN",
+      "superiorGrade": "Superior grade",
+      "ecoFriendlyDiamond": "Eco-friendly diamond"
+    },
+    "features": [
+      "Free 30 Days Returns",
+      "Our Price includes Metal & Stones",
+      "Transparent Quality & reliable certification",
+      "Free safe shipping - Most delivery within 2-3 weeks",
+      "Contact us and let us check what we can do for you"
+    ],
+    "freeGift": {
+      "title": "Complimentary Pearl Earrings with Orders Over $3,000",
+      "value": "$280 USD",
+      "image": "/placeholder.svg?height=50&width=50"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Elegance",
+    "slug": "elegance",
+    "price": 6500,
+    "originalPrice": 8125,
+    "discount": "20% off",
+    "sku": "LG9981W14",
+    "totalCarat": "0.8 Carat",
+    "shipsIn": "4-6 weeks",
+    "description": "An elegant ring with cushion cuts. Sophisticated and refined design.",
+    "story": "The Elegance collection represents the pinnacle of sophisticated jewelry design, where every detail is meticulously crafted to perfection.",
+    "images": [
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "cushion",
+        "metal": "platinum",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "cushion",
+        "metal": "white gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "round",
+        "metal": "platinum",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "princess",
+        "metal": "yellow gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      }
+    ],
+    "carats": ["2", "3", "4"],
+    "metals": [
+      { "name": "Platinum", "value": "platinum" },
+      { "name": "14K White Gold", "value": "white gold" },
+      { "name": "14K Yellow Gold", "value": "yellow gold" }
+    ],
+    "settings": {
+      "metal": "PLATINUM",
+      "style": "LUXURY SETTING",
+      "sustainableEthical": "Sustainable, ethical, and recycled",
+      "trendyAppearance": "Luxury appeal",
+      "accentGems": "Premium Gems",
+      "sideDiamondsWeight": "Side Diamonds Weight",
+      "sideDiamondsQuality": "D-E / VVS",
+      "sideDiamondsOrigin": "LAB GROWN",
+      "superiorGrade": "Superior grade",
+      "ecoFriendlyDiamond": "Eco-friendly diamond"
+    },
+    "features": [
+      "Free 30 Days Returns",
+      "Our Price includes Metal & Stones",
+      "Transparent Quality & reliable certification",
+      "Free safe shipping - Most delivery within 4-6 weeks",
+      "Contact us and let us check what we can do for you"
+    ],
+    "freeGift": {
+      "title": "Complimentary Pearl Earrings with Orders Over $3,000",
+      "value": "$280 USD",
+      "image": "/placeholder.svg?height=50&width=50"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Brilliance",
+    "slug": "brilliance",
+    "price": 4900,
+    "originalPrice": 5880,
+    "discount": "25% off",
+    "sku": "LG9982W14",
+    "totalCarat": "0.6 Carat",
+    "shipsIn": "3-4 weeks",
+    "description": "A brilliant ring with round cuts. Maximum sparkle and fire.",
+    "story": "The Brilliance collection is designed to maximize light reflection and create an unparalleled display of sparkle and brilliance.",
+    "images": [
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "round",
+        "metal": "white gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "round",
+        "metal": "platinum",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "princess",
+        "metal": "white gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "emerald",
+        "metal": "rose gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      }
+    ],
+    "carats": ["1", "1.5", "2"],
+    "metals": [
+      { "name": "14K White Gold", "value": "white gold" },
+      { "name": "Platinum", "value": "platinum" },
+      { "name": "14K Rose Gold", "value": "rose gold" }
+    ],
+    "settings": {
+      "metal": "14K WHITE GOLD",
+      "style": "BRILLIANT CUT",
+      "sustainableEthical": "Sustainable, ethical, and recycled",
+      "trendyAppearance": "Maximum brilliance",
+      "accentGems": "Brilliant Gems",
+      "sideDiamondsWeight": "Side Diamonds Weight",
+      "sideDiamondsQuality": "D-E / VS",
+      "sideDiamondsOrigin": "LAB GROWN",
+      "superiorGrade": "Superior grade",
+      "ecoFriendlyDiamond": "Eco-friendly diamond"
+    },
+    "features": [
+      "Free 30 Days Returns",
+      "Our Price includes Metal & Stones",
+      "Transparent Quality & reliable certification",
+      "Free safe shipping - Most delivery within 3-4 weeks",
+      "Contact us and let us check what we can do for you"
+    ],
+    "freeGift": {
+      "title": "Complimentary Pearl Earrings with Orders Over $3,000",
+      "value": "$280 USD",
+      "image": "/placeholder.svg?height=50&width=50"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Harmony",
+    "slug": "harmony",
+    "price": 5800,
+    "originalPrice": 6960,
+    "discount": "20% off",
+    "sku": "LG9983W14",
+    "totalCarat": "0.7 Carat",
+    "shipsIn": "3-5 weeks",
+    "description": "A harmonious ring with heart cuts. Perfect balance of love and elegance.",
+    "story": "The Harmony collection represents the perfect union of love and craftsmanship, designed to celebrate life's most precious moments.",
+    "images": [
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "heart",
+        "metal": "rose gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "heart",
+        "metal": "yellow gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "round",
+        "metal": "rose gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "oval",
+        "metal": "white gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      }
+    ],
+    "carats": ["1", "2"],
+    "metals": [
+      { "name": "14K Rose Gold", "value": "rose gold" },
+      { "name": "14K Yellow Gold", "value": "yellow gold" },
+      { "name": "14K White Gold", "value": "white gold" }
+    ],
+    "settings": {
+      "metal": "14K ROSE GOLD",
+      "style": "ROMANTIC SETTING",
+      "sustainableEthical": "Sustainable, ethical, and recycled",
+      "trendyAppearance": "Romantic appeal",
+      "accentGems": "Heart Gems",
+      "sideDiamondsWeight": "Side Diamonds Weight",
+      "sideDiamondsQuality": "D-E / VS",
+      "sideDiamondsOrigin": "LAB GROWN",
+      "superiorGrade": "Superior grade",
+      "ecoFriendlyDiamond": "Eco-friendly diamond"
+    },
+    "features": [
+      "Free 30 Days Returns",
+      "Our Price includes Metal & Stones",
+      "Transparent Quality & reliable certification",
+      "Free safe shipping - Most delivery within 3-5 weeks",
+      "Contact us and let us check what we can do for you"
+    ],
+    "freeGift": {
+      "title": "Complimentary Pearl Earrings with Orders Over $3,000",
+      "value": "$280 USD",
+      "image": "/placeholder.svg?height=50&width=50"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Serenity",
+    "slug": "serenity",
+    "price": 4200,
+    "originalPrice": 5040,
+    "discount": "25% off",
+    "sku": "LG9984W14",
+    "totalCarat": "0.5 Carat",
+    "shipsIn": "2-4 weeks",
+    "description": "A serene ring with marquise cuts. Peaceful elegance and grace.",
+    "story": "The Serenity collection embodies tranquility and grace, designed for those who appreciate understated elegance and timeless beauty.",
+    "images": [
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "marquise",
+        "metal": "yellow gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "marquise",
+        "metal": "white gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "oval",
+        "metal": "rose gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "round",
+        "metal": "platinum",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      }
+    ],
+    "carats": ["1", "1.5", "2", "2.5"],
+    "metals": [
+      { "name": "14K Yellow Gold", "value": "yellow gold" },
+      { "name": "14K White Gold", "value": "white gold" },
+      { "name": "14K Rose Gold", "value": "rose gold" },
+      { "name": "Platinum", "value": "platinum" }
+    ],
+    "settings": {
+      "metal": "14K YELLOW GOLD",
+      "style": "SERENE SETTING",
+      "sustainableEthical": "Sustainable, ethical, and recycled",
+      "trendyAppearance": "Peaceful elegance",
+      "accentGems": "Serene Gems",
+      "sideDiamondsWeight": "Side Diamonds Weight",
+      "sideDiamondsQuality": "D-E / VS",
+      "sideDiamondsOrigin": "LAB GROWN",
+      "superiorGrade": "Superior grade",
+      "ecoFriendlyDiamond": "Eco-friendly diamond"
+    },
+    "features": [
+      "Free 30 Days Returns",
+      "Our Price includes Metal & Stones",
+      "Transparent Quality & reliable certification",
+      "Free safe shipping - Most delivery within 2-4 weeks",
+      "Contact us and let us check what we can do for you"
+    ],
+    "freeGift": {
+      "title": "Complimentary Pearl Earrings with Orders Over $3,000",
+      "value": "$280 USD",
+      "image": "/placeholder.svg?height=50&width=50"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Infinity",
+    "slug": "infinity",
+    "price": 7200,
+    "originalPrice": 8640,
+    "discount": "20% off",
+    "sku": "LG9985W14",
+    "totalCarat": "1.0 Carat",
+    "shipsIn": "4-6 weeks",
+    "description": "An infinite ring with radiant cuts. Endless beauty and brilliance.",
+    "story": "The Infinity collection represents eternal love and endless possibilities, crafted to symbolize bonds that last forever.",
+    "images": [
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "radiant",
+        "metal": "platinum",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "radiant",
+        "metal": "white gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "princess",
+        "metal": "yellow gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "emerald",
+        "metal": "rose gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "round",
+        "metal": "platinum",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      }
+    ],
+    "carats": ["2", "3", "4", "5"],
+    "metals": [
+      { "name": "Platinum", "value": "platinum" },
+      { "name": "14K White Gold", "value": "white gold" },
+      { "name": "14K Yellow Gold", "value": "yellow gold" },
+      { "name": "14K Rose Gold", "value": "rose gold" }
+    ],
+    "settings": {
+      "metal": "PLATINUM",
+      "style": "INFINITY SETTING",
+      "sustainableEthical": "Sustainable, ethical, and recycled",
+      "trendyAppearance": "Eternal elegance",
+      "accentGems": "Infinite Gems",
+      "sideDiamondsWeight": "Side Diamonds Weight",
+      "sideDiamondsQuality": "D-E / VVS",
+      "sideDiamondsOrigin": "LAB GROWN",
+      "superiorGrade": "Superior grade",
+      "ecoFriendlyDiamond": "Eco-friendly diamond"
+    },
+    "features": [
+      "Free 30 Days Returns",
+      "Our Price includes Metal & Stones",
+      "Transparent Quality & reliable certification",
+      "Free safe shipping - Most delivery within 4-6 weeks",
+      "Contact us and let us check what we can do for you"
+    ],
+    "freeGift": {
+      "title": "Complimentary Pearl Earrings with Orders Over $3,000",
+      "value": "$280 USD",
+      "image": "/placeholder.svg?height=50&width=50"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Eternal",
+    "slug": "eternal",
+    "price": 5500,
+    "originalPrice": 6600,
+    "discount": "20% off",
+    "sku": "LG9986W14",
+    "totalCarat": "0.9 Carat",
+    "shipsIn": "3-5 weeks",
+    "description": "An eternal ring with round cuts. Timeless beauty that lasts forever.",
+    "story": "The Eternal collection captures the essence of everlasting love, designed to be treasured for generations to come.",
+    "images": [
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Traditional_Solitaire_Engagement_Ring_37767f71-6ac9-4330-ac58-594f919930c8_400x.png?v=1745942784",
+        "shape": "round",
+        "metal": "yellow gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Traditional_Solitaire_Engagement_Ring_37767f71-6ac9-4330-ac58-594f919930c8_100x.png?v=1745942784"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Six-Stone_Round_Band_94d17d15-7623-4e96-ab8c-07fd91a74ab4_400x.png?v=1748034200",
+        "shape": "round",
+        "metal": "white gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Six-Stone_Round_Band_94d17d15-7623-4e96-ab8c-07fd91a74ab4_100x.png?v=1748034200"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Beloved_Wedding_Band_1ed0f943-8409-4da9-b173-59209f7de2cf_400x.png?v=1745942818",
+        "shape": "princess",
+        "metal": "rose gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Beloved_Wedding_Band_1ed0f943-8409-4da9-b173-59209f7de2cf_100x.png?v=1745942818"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "cushion",
+        "metal": "platinum",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      }
+    ],
+    "carats": ["1", "1.5", "2", "3"],
+    "metals": [
+      { "name": "14K Yellow Gold", "value": "yellow gold" },
+      { "name": "14K White Gold", "value": "white gold" },
+      { "name": "14K Rose Gold", "value": "rose gold" },
+      { "name": "Platinum", "value": "platinum" }
+    ],
+    "settings": {
+      "metal": "14K YELLOW GOLD",
+      "style": "ETERNAL SETTING",
+      "sustainableEthical": "Sustainable, ethical, and recycled",
+      "trendyAppearance": "Timeless appeal",
+      "accentGems": "Eternal Gems",
+      "sideDiamondsWeight": "Side Diamonds Weight",
+      "sideDiamondsQuality": "D-E / VS",
+      "sideDiamondsOrigin": "LAB GROWN",
+      "superiorGrade": "Superior grade",
+      "ecoFriendlyDiamond": "Eco-friendly diamond"
+    },
+    "features": [
+      "Free 30 Days Returns",
+      "Our Price includes Metal & Stones",
+      "Transparent Quality & reliable certification",
+      "Free safe shipping - Most delivery within 3-5 weeks",
+      "Contact us and let us check what we can do for you"
+    ],
+    "freeGift": {
+      "title": "Complimentary Pearl Earrings with Orders Over $3,000",
+      "value": "$280 USD",
+      "image": "/placeholder.svg?height=50&width=50"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Majestic",
+    "slug": "majestic",
+    "price": 8900,
+    "originalPrice": 10680,
+    "discount": "20% off",
+    "sku": "LG9987W14",
+    "totalCarat": "1.2 Carat",
+    "shipsIn": "5-7 weeks",
+    "description": "A majestic ring with emerald cuts. Royal elegance and grandeur.",
+    "story": "The Majestic collection embodies regal sophistication and grandeur, designed for those who appreciate the finest in luxury jewelry.",
+    "images": [
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/products/Coil-DiamondAccented-Pinky-Ring-YG-Webwhite-002_500x.jpg?v=1664577338",
+        "shape": "emerald",
+        "metal": "platinum",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/products/Coil-DiamondAccented-Pinky-Ring-YG-Webwhite-002_100x.jpg?v=1664577338"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/products/Venetian-Stackable-Band-AccentedDiamond-RG-Webwhite-002_de333038-ce4b-48bf-9b0f-be4039434c5e_500x.jpg?v=1663179533",
+        "shape": "asscher",
+        "metal": "white gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/products/Venetian-Stackable-Band-AccentedDiamond-RG-Webwhite-002_de333038-ce4b-48bf-9b0f-be4039434c5e_100x.jpg?v=1663179533"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/venetian-stackable-band-whitegold-001-web.jpg?width=600",
+        "shape": "round",
+        "metal": "rose gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/venetian-stackable-band-whitegold-001-web.jpg?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Traditional_Solitaire_Engagement_Ring_37767f71-6ac9-4330-ac58-594f919930c8_400x.png?v=1745942784",
+        "shape": "oval",
+        "metal": "yellow gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Traditional_Solitaire_Engagement_Ring_37767f71-6ac9-4330-ac58-594f919930c8_100x.png?v=1745942784"
+      }
+    ],
+    "carats": ["2", "3", "4", "5"],
+    "metals": [
+      { "name": "Platinum", "value": "platinum" },
+      { "name": "14K White Gold", "value": "white gold" },
+      { "name": "14K Rose Gold", "value": "rose gold" },
+      { "name": "14K Yellow Gold", "value": "yellow gold" }
+    ],
+    "settings": {
+      "metal": "PLATINUM",
+      "style": "MAJESTIC SETTING",
+      "sustainableEthical": "Sustainable, ethical, and recycled",
+      "trendyAppearance": "Royal grandeur",
+      "accentGems": "Majestic Gems",
+      "sideDiamondsWeight": "Side Diamonds Weight",
+      "sideDiamondsQuality": "D-E / VVS",
+      "sideDiamondsOrigin": "LAB GROWN",
+      "superiorGrade": "Superior grade",
+      "ecoFriendlyDiamond": "Eco-friendly diamond"
+    },
+    "features": [
+      "Free 30 Days Returns",
+      "Our Price includes Metal & Stones",
+      "Transparent Quality & reliable certification",
+      "Free safe shipping - Most delivery within 5-7 weeks",
+      "Contact us and let us check what we can do for you"
+    ],
+    "freeGift": {
+      "title": "Complimentary Pearl Earrings with Orders Over $3,000",
+      "value": "$280 USD",
+      "image": "/placeholder.svg?height=50&width=50"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Aurora",
+    "slug": "aurora",
+    "price": 4315,
+    "originalPrice": 5170,
+    "discount": "40% off",
+    "sku": "LG9978W14",
+    "totalCarat": "0.3 Carat",
+    "shipsIn": "2-4 weeks",
+    "description": "A gorgeous diamond ring, style with clean and sparkly diamonds. 0.30 Carat D-E VS Diamonds.",
+    "story": "Reconsider the preset of letter bracelets. A gorgeous diamond Bracelet, style with 'A' Letter set with clean and sparkly diamonds. 0.30 Carat D-E VS Diamonds.",
+    "images": [
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Traditional_Solitaire_Engagement_Ring_37767f71-6ac9-4330-ac58-594f919930c8_400x.png?v=1745942784",
+        "shape": "round",
+        "metal": "yellow gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Traditional_Solitaire_Engagement_Ring_37767f71-6ac9-4330-ac58-594f919930c8_100x.png?v=1745942784"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Beloved_Wedding_Band_1ed0f943-8409-4da9-b173-59209f7de2cf_400x.png?v=1745942818",
+        "shape": "princess",
+        "metal": "yellow gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Beloved_Wedding_Band_1ed0f943-8409-4da9-b173-59209f7de2cf_100x.png?v=1745942818"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Six-Stone_Round_Band_94d17d15-7623-4e96-ab8c-07fd91a74ab4_400x.png?v=1748034200",
+        "shape": "round",
+        "metal": "white gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Six-Stone_Round_Band_94d17d15-7623-4e96-ab8c-07fd91a74ab4_100x.png?v=1748034200"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Traditional_Solitaire_Engagement_Ring_37767f71-6ac9-4330-ac58-594f919930c8_400x.png?v=1745942784",
+        "shape": "round",
+        "metal": "rose gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Traditional_Solitaire_Engagement_Ring_37767f71-6ac9-4330-ac58-594f919930c8_100x.png?v=1745942784"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Six-Stone_Round_Band_94d17d15-7623-4e96-ab8c-07fd91a74ab4_400x.png?v=1748034200",
+        "shape": "emerald",
+        "metal": "platinum",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Six-Stone_Round_Band_94d17d15-7623-4e96-ab8c-07fd91a74ab4_100x.png?v=1748034200"
+      }
+    ],
+    "carats": ["1", "1.5", "2", "2.5", "3"],
+    "metals": [
+      { "name": "14K White Gold", "value": "white gold" },
+      { "name": "14K Yellow Gold", "value": "yellow gold" },
+      { "name": "14K Rose Gold", "value": "rose gold" },
+      { "name": "Platinum", "value": "platinum" }
+    ],
+    "settings": {
+      "metal": "14K WHITE GOLD",
+      "style": "SIDE STONES",
+      "sustainableEthical": "Sustainable, ethical, and recycled",
+      "trendyAppearance": "Trendy appearance",
+      "accentGems": "Ancient Gems",
+      "sideDiamondsWeight": "Side Diamonds Weight",
+      "sideDiamondsQuality": "D-E / VS",
+      "sideDiamondsOrigin": "LAB GROWN",
+      "superiorGrade": "Superior grade",
+      "ecoFriendlyDiamond": "Eco-friendly diamond"
+    },
+    "features": [
+      "Free 30 Days Returns",
+      "Our Price includes Metal & Stones",
+      "Transparent Quality & reliable certification",
+      "Free safe shipping - Most delivery within 2-4 weeks",
+      "Contact us and let us check what we can do for you"
+    ],
+    "freeGift": {
+      "title": "Complimentary Pearl Earrings with Orders Over $3,000",
+      "value": "$280 USD",
+      "image": "/placeholder.svg?height=50&width=50"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Celestial",
+    "slug": "celestial",
+    "price": 5200,
+    "originalPrice": 6240,
+    "discount": "35% off",
+    "sku": "LG9979W14",
+    "totalCarat": "0.5 Carat",
+    "shipsIn": "3-5 weeks",
+    "description": "An elegant celestial-inspired ring with emerald and asscher cuts. Premium quality lab-grown diamonds.",
+    "story": "Inspired by the celestial beauty of stars and constellations. This ring captures the essence of cosmic elegance with its precise cuts and brilliant sparkle.",
+    "images": [
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/products/Coil-DiamondAccented-Pinky-Ring-YG-Webwhite-002_500x.jpg?v=1664577338",
+        "shape": "emerald",
+        "metal": "platinum",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/products/Coil-DiamondAccented-Pinky-Ring-YG-Webwhite-002_100x.jpg?v=1664577338"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/products/Venetian-Stackable-Band-AccentedDiamond-RG-Webwhite-002_de333038-ce4b-48bf-9b0f-be4039434c5e_500x.jpg?v=1663179533",
+        "shape": "asscher",
+        "metal": "white gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/products/Venetian-Stackable-Band-AccentedDiamond-RG-Webwhite-002_de333038-ce4b-48bf-9b0f-be4039434c5e_100x.jpg?v=1663179533"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "round",
+        "metal": "yellow gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      }
+    ],
+    "carats": ["1", "2", "3"],
+    "metals": [
+      { "name": "Platinum", "value": "platinum" },
+      { "name": "14K White Gold", "value": "white gold" },
+      { "name": "14K Rose Gold", "value": "rose gold" }
+    ],
+    "settings": {
+      "metal": "PLATINUM",
+      "style": "CLASSIC SOLITAIRE",
+      "sustainableEthical": "Sustainable, ethical, and recycled",
+      "trendyAppearance": "Timeless elegance",
+      "accentGems": "Premium Gems",
+      "sideDiamondsWeight": "Side Diamonds Weight",
+      "sideDiamondsQuality": "D-E / VVS",
+      "sideDiamondsOrigin": "LAB GROWN",
+      "superiorGrade": "Superior grade",
+      "ecoFriendlyDiamond": "Eco-friendly diamond"
+    },
+    "features": [
+      "Free 30 Days Returns",
+      "Our Price includes Metal & Stones",
+      "Transparent Quality & reliable certification",
+      "Free safe shipping - Most delivery within 3-5 weeks",
+      "Contact us and let us check what we can do for you"
+    ],
+    "freeGift": {
+      "title": "Complimentary Pearl Earrings with Orders Over $3,000",
+      "value": "$280 USD",
+      "image": "/placeholder.svg?height=50&width=50"
+    }
+  },
+  {
+    "id": 13,
+    "name": "Radiance",
+    "slug": "radiance",
+    "price": 3800,
+    "originalPrice": 4560,
+    "discount": "30% off",
+    "sku": "LG9980W14",
+    "totalCarat": "0.4 Carat",
+    "shipsIn": "2-3 weeks",
+    "description": "A radiant ring with oval and pear cuts. Exceptional brilliance and fire.",
+    "story": "Crafted to capture and reflect light from every angle, the Radiance collection embodies the perfect balance of modern design and timeless elegance.",
+    "images": [
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "oval",
+        "metal": "rose gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/venetian-stackable-band-whitegold-001-web.jpg?width=600",
+        "shape": "pear",
+        "metal": "yellow gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/venetian-stackable-band-whitegold-001-web.jpg?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "round",
+        "metal": "white gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      }
+    ],
+    "carats": ["0.5", "1", "1.5", "2"],
+    "metals": [
+      { "name": "14K Rose Gold", "value": "rose gold" },
+      { "name": "14K Yellow Gold", "value": "yellow gold" },
+      { "name": "14K White Gold", "value": "white gold" }
+    ],
+    "settings": {
+      "metal": "14K ROSE GOLD",
+      "style": "VINTAGE INSPIRED",
+      "sustainableEthical": "Sustainable, ethical, and recycled",
+      "trendyAppearance": "Vintage charm",
+      "accentGems": "Vintage Gems",
+      "sideDiamondsWeight": "Side Diamonds Weight",
+      "sideDiamondsQuality": "D-E / VS",
+      "sideDiamondsOrigin": "LAB GROWN",
+      "superiorGrade": "Superior grade",
+      "ecoFriendlyDiamond": "Eco-friendly diamond"
+    },
+    "features": [
+      "Free 30 Days Returns",
+      "Our Price includes Metal & Stones",
+      "Transparent Quality & reliable certification",
+      "Free safe shipping - Most delivery within 2-3 weeks",
+      "Contact us and let us check what we can do for you"
+    ],
+    "freeGift": {
+      "title": "Complimentary Pearl Earrings with Orders Over $3,000",
+      "value": "$280 USD",
+      "image": "/placeholder.svg?height=50&width=50"
+    }
+  },
+  {
+    "id": 14,
+    "name": "Elegance",
+    "slug": "elegance",
+    "price": 6500,
+    "originalPrice": 8125,
+    "discount": "20% off",
+    "sku": "LG9981W14",
+    "totalCarat": "0.8 Carat",
+    "shipsIn": "4-6 weeks",
+    "description": "An elegant ring with cushion cuts. Sophisticated and refined design.",
+    "story": "The Elegance collection represents the pinnacle of sophisticated jewelry design, where every detail is meticulously crafted to perfection.",
+    "images": [
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "cushion",
+        "metal": "platinum",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "cushion",
+        "metal": "white gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "round",
+        "metal": "platinum",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "princess",
+        "metal": "yellow gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      }
+    ],
+    "carats": ["2", "3", "4"],
+    "metals": [
+      { "name": "Platinum", "value": "platinum" },
+      { "name": "14K White Gold", "value": "white gold" },
+      { "name": "14K Yellow Gold", "value": "yellow gold" }
+    ],
+    "settings": {
+      "metal": "PLATINUM",
+      "style": "LUXURY SETTING",
+      "sustainableEthical": "Sustainable, ethical, and recycled",
+      "trendyAppearance": "Luxury appeal",
+      "accentGems": "Premium Gems",
+      "sideDiamondsWeight": "Side Diamonds Weight",
+      "sideDiamondsQuality": "D-E / VVS",
+      "sideDiamondsOrigin": "LAB GROWN",
+      "superiorGrade": "Superior grade",
+      "ecoFriendlyDiamond": "Eco-friendly diamond"
+    },
+    "features": [
+      "Free 30 Days Returns",
+      "Our Price includes Metal & Stones",
+      "Transparent Quality & reliable certification",
+      "Free safe shipping - Most delivery within 4-6 weeks",
+      "Contact us and let us check what we can do for you"
+    ],
+    "freeGift": {
+      "title": "Complimentary Pearl Earrings with Orders Over $3,000",
+      "value": "$280 USD",
+      "image": "/placeholder.svg?height=50&width=50"
+    }
+  },
+  {
+    "id": 15,
+    "name": "Brilliance",
+    "slug": "brilliance",
+    "price": 4900,
+    "originalPrice": 5880,
+    "discount": "25% off",
+    "sku": "LG9982W14",
+    "totalCarat": "0.6 Carat",
+    "shipsIn": "3-4 weeks",
+    "description": "A brilliant ring with round cuts. Maximum sparkle and fire.",
+    "story": "The Brilliance collection is designed to maximize light reflection and create an unparalleled display of sparkle and brilliance.",
+    "images": [
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "round",
+        "metal": "white gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "round",
+        "metal": "platinum",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "princess",
+        "metal": "white gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "emerald",
+        "metal": "rose gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      }
+    ],
+    "carats": ["1", "1.5", "2"],
+    "metals": [
+      { "name": "14K White Gold", "value": "white gold" },
+      { "name": "Platinum", "value": "platinum" },
+      { "name": "14K Rose Gold", "value": "rose gold" }
+    ],
+    "settings": {
+      "metal": "14K WHITE GOLD",
+      "style": "BRILLIANT CUT",
+      "sustainableEthical": "Sustainable, ethical, and recycled",
+      "trendyAppearance": "Maximum brilliance",
+      "accentGems": "Brilliant Gems",
+      "sideDiamondsWeight": "Side Diamonds Weight",
+      "sideDiamondsQuality": "D-E / VS",
+      "sideDiamondsOrigin": "LAB GROWN",
+      "superiorGrade": "Superior grade",
+      "ecoFriendlyDiamond": "Eco-friendly diamond"
+    },
+    "features": [
+      "Free 30 Days Returns",
+      "Our Price includes Metal & Stones",
+      "Transparent Quality & reliable certification",
+      "Free safe shipping - Most delivery within 3-4 weeks",
+      "Contact us and let us check what we can do for you"
+    ],
+    "freeGift": {
+      "title": "Complimentary Pearl Earrings with Orders Over $3,000",
+      "value": "$280 USD",
+      "image": "/placeholder.svg?height=50&width=50"
+    }
+  },
+  {
+    "id": 16,
+    "name": "Harmony",
+    "slug": "harmony",
+    "price": 5800,
+    "originalPrice": 6960,
+    "discount": "20% off",
+    "sku": "LG9983W14",
+    "totalCarat": "0.7 Carat",
+    "shipsIn": "3-5 weeks",
+    "description": "A harmonious ring with heart cuts. Perfect balance of love and elegance.",
+    "story": "The Harmony collection represents the perfect union of love and craftsmanship, designed to celebrate life's most precious moments.",
+    "images": [
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "heart",
+        "metal": "rose gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "heart",
+        "metal": "yellow gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "round",
+        "metal": "rose gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "oval",
+        "metal": "white gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      }
+    ],
+    "carats": ["1", "2"],
+    "metals": [
+      { "name": "14K Rose Gold", "value": "rose gold" },
+      { "name": "14K Yellow Gold", "value": "yellow gold" },
+      { "name": "14K White Gold", "value": "white gold" }
+    ],
+    "settings": {
+      "metal": "14K ROSE GOLD",
+      "style": "ROMANTIC SETTING",
+      "sustainableEthical": "Sustainable, ethical, and recycled",
+      "trendyAppearance": "Romantic appeal",
+      "accentGems": "Heart Gems",
+      "sideDiamondsWeight": "Side Diamonds Weight",
+      "sideDiamondsQuality": "D-E / VS",
+      "sideDiamondsOrigin": "LAB GROWN",
+      "superiorGrade": "Superior grade",
+      "ecoFriendlyDiamond": "Eco-friendly diamond"
+    },
+    "features": [
+      "Free 30 Days Returns",
+      "Our Price includes Metal & Stones",
+      "Transparent Quality & reliable certification",
+      "Free safe shipping - Most delivery within 3-5 weeks",
+      "Contact us and let us check what we can do for you"
+    ],
+    "freeGift": {
+      "title": "Complimentary Pearl Earrings with Orders Over $3,000",
+      "value": "$280 USD",
+      "image": "/placeholder.svg?height=50&width=50"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Serenity",
+    "slug": "serenity",
+    "price": 4200,
+    "originalPrice": 5040,
+    "discount": "25% off",
+    "sku": "LG9984W14",
+    "totalCarat": "0.5 Carat",
+    "shipsIn": "2-4 weeks",
+    "description": "A serene ring with marquise cuts. Peaceful elegance and grace.",
+    "story": "The Serenity collection embodies tranquility and grace, designed for those who appreciate understated elegance and timeless beauty.",
+    "images": [
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "marquise",
+        "metal": "yellow gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "marquise",
+        "metal": "white gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "oval",
+        "metal": "rose gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "round",
+        "metal": "platinum",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      }
+    ],
+    "carats": ["1", "1.5", "2", "2.5"],
+    "metals": [
+      { "name": "14K Yellow Gold", "value": "yellow gold" },
+      { "name": "14K White Gold", "value": "white gold" },
+      { "name": "14K Rose Gold", "value": "rose gold" },
+      { "name": "Platinum", "value": "platinum" }
+    ],
+    "settings": {
+      "metal": "14K YELLOW GOLD",
+      "style": "SERENE SETTING",
+      "sustainableEthical": "Sustainable, ethical, and recycled",
+      "trendyAppearance": "Peaceful elegance",
+      "accentGems": "Serene Gems",
+      "sideDiamondsWeight": "Side Diamonds Weight",
+      "sideDiamondsQuality": "D-E / VS",
+      "sideDiamondsOrigin": "LAB GROWN",
+      "superiorGrade": "Superior grade",
+      "ecoFriendlyDiamond": "Eco-friendly diamond"
+    },
+    "features": [
+      "Free 30 Days Returns",
+      "Our Price includes Metal & Stones",
+      "Transparent Quality & reliable certification",
+      "Free safe shipping - Most delivery within 2-4 weeks",
+      "Contact us and let us check what we can do for you"
+    ],
+    "freeGift": {
+      "title": "Complimentary Pearl Earrings with Orders Over $3,000",
+      "value": "$280 USD",
+      "image": "/placeholder.svg?height=50&width=50"
+    }
+  },
+  {
+    "id": 18,
+    "name": "Infinity",
+    "slug": "infinity",
+    "price": 7200,
+    "originalPrice": 8640,
+    "discount": "20% off",
+    "sku": "LG9985W14",
+    "totalCarat": "1.0 Carat",
+    "shipsIn": "4-6 weeks",
+    "description": "An infinite ring with radiant cuts. Endless beauty and brilliance.",
+    "story": "The Infinity collection represents eternal love and endless possibilities, crafted to symbolize bonds that last forever.",
+    "images": [
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "radiant",
+        "metal": "platinum",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "radiant",
+        "metal": "white gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "princess",
+        "metal": "yellow gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "emerald",
+        "metal": "rose gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "round",
+        "metal": "platinum",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      }
+    ],
+    "carats": ["2", "3", "4", "5"],
+    "metals": [
+      { "name": "Platinum", "value": "platinum" },
+      { "name": "14K White Gold", "value": "white gold" },
+      { "name": "14K Yellow Gold", "value": "yellow gold" },
+      { "name": "14K Rose Gold", "value": "rose gold" }
+    ],
+    "settings": {
+      "metal": "PLATINUM",
+      "style": "INFINITY SETTING",
+      "sustainableEthical": "Sustainable, ethical, and recycled",
+      "trendyAppearance": "Eternal elegance",
+      "accentGems": "Infinite Gems",
+      "sideDiamondsWeight": "Side Diamonds Weight",
+      "sideDiamondsQuality": "D-E / VVS",
+      "sideDiamondsOrigin": "LAB GROWN",
+      "superiorGrade": "Superior grade",
+      "ecoFriendlyDiamond": "Eco-friendly diamond"
+    },
+    "features": [
+      "Free 30 Days Returns",
+      "Our Price includes Metal & Stones",
+      "Transparent Quality & reliable certification",
+      "Free safe shipping - Most delivery within 4-6 weeks",
+      "Contact us and let us check what we can do for you"
+    ],
+    "freeGift": {
+      "title": "Complimentary Pearl Earrings with Orders Over $3,000",
+      "value": "$280 USD",
+      "image": "/placeholder.svg?height=50&width=50"
+    }
+  },
+  {
+    "id": 19,
+    "name": "Eternal",
+    "slug": "eternal",
+    "price": 5500,
+    "originalPrice": 6600,
+    "discount": "20% off",
+    "sku": "LG9986W14",
+    "totalCarat": "0.9 Carat",
+    "shipsIn": "3-5 weeks",
+    "description": "An eternal ring with round cuts. Timeless beauty that lasts forever.",
+    "story": "The Eternal collection captures the essence of everlasting love, designed to be treasured for generations to come.",
+    "images": [
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Traditional_Solitaire_Engagement_Ring_37767f71-6ac9-4330-ac58-594f919930c8_400x.png?v=1745942784",
+        "shape": "round",
+        "metal": "yellow gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Traditional_Solitaire_Engagement_Ring_37767f71-6ac9-4330-ac58-594f919930c8_100x.png?v=1745942784"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Six-Stone_Round_Band_94d17d15-7623-4e96-ab8c-07fd91a74ab4_400x.png?v=1748034200",
+        "shape": "round",
+        "metal": "white gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Six-Stone_Round_Band_94d17d15-7623-4e96-ab8c-07fd91a74ab4_100x.png?v=1748034200"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Beloved_Wedding_Band_1ed0f943-8409-4da9-b173-59209f7de2cf_400x.png?v=1745942818",
+        "shape": "princess",
+        "metal": "rose gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Beloved_Wedding_Band_1ed0f943-8409-4da9-b173-59209f7de2cf_100x.png?v=1745942818"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=600",
+        "shape": "cushion",
+        "metal": "platinum",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/grand-pave-dome-eternity-band-whitegold-002-web.png?width=100"
+      }
+    ],
+    "carats": ["1", "1.5", "2", "3"],
+    "metals": [
+      { "name": "14K Yellow Gold", "value": "yellow gold" },
+      { "name": "14K White Gold", "value": "white gold" },
+      { "name": "14K Rose Gold", "value": "rose gold" },
+      { "name": "Platinum", "value": "platinum" }
+    ],
+    "settings": {
+      "metal": "14K YELLOW GOLD",
+      "style": "ETERNAL SETTING",
+      "sustainableEthical": "Sustainable, ethical, and recycled",
+      "trendyAppearance": "Timeless appeal",
+      "accentGems": "Eternal Gems",
+      "sideDiamondsWeight": "Side Diamonds Weight",
+      "sideDiamondsQuality": "D-E / VS",
+      "sideDiamondsOrigin": "LAB GROWN",
+      "superiorGrade": "Superior grade",
+      "ecoFriendlyDiamond": "Eco-friendly diamond"
+    },
+    "features": [
+      "Free 30 Days Returns",
+      "Our Price includes Metal & Stones",
+      "Transparent Quality & reliable certification",
+      "Free safe shipping - Most delivery within 3-5 weeks",
+      "Contact us and let us check what we can do for you"
+    ],
+    "freeGift": {
+      "title": "Complimentary Pearl Earrings with Orders Over $3,000",
+      "value": "$280 USD",
+      "image": "/placeholder.svg?height=50&width=50"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Majestic",
+    "slug": "majestic",
+    "price": 8900,
+    "originalPrice": 10680,
+    "discount": "20% off",
+    "sku": "LG9987W14",
+    "totalCarat": "1.2 Carat",
+    "shipsIn": "5-7 weeks",
+    "description": "A majestic ring with emerald cuts. Royal elegance and grandeur.",
+    "story": "The Majestic collection embodies regal sophistication and grandeur, designed for those who appreciate the finest in luxury jewelry.",
+    "images": [
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/products/Coil-DiamondAccented-Pinky-Ring-YG-Webwhite-002_500x.jpg?v=1664577338",
+        "shape": "emerald",
+        "metal": "platinum",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/products/Coil-DiamondAccented-Pinky-Ring-YG-Webwhite-002_100x.jpg?v=1664577338"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/products/Venetian-Stackable-Band-AccentedDiamond-RG-Webwhite-002_de333038-ce4b-48bf-9b0f-be4039434c5e_500x.jpg?v=1663179533",
+        "shape": "asscher",
+        "metal": "white gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/products/Venetian-Stackable-Band-AccentedDiamond-RG-Webwhite-002_de333038-ce4b-48bf-9b0f-be4039434c5e_100x.jpg?v=1663179533"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/venetian-stackable-band-whitegold-001-web.jpg?width=600",
+        "shape": "round",
+        "metal": "rose gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/https://cdn.miadonna.com/products/website/venetian-stackable-band-whitegold-001-web.jpg?width=100"
+      },
+      {
+        "url": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Traditional_Solitaire_Engagement_Ring_37767f71-6ac9-4330-ac58-594f919930c8_400x.png?v=1745942784",
+        "shape": "oval",
+        "metal": "yellow gold",
+        "thumbnail": "https://sfycdn.speedsize.com/d9acbe11-c0cc-4d19-a1ce-748a0fd38b05/www.miadonna.com/cdn/shop/files/Traditional_Solitaire_Engagement_Ring_37767f71-6ac9-4330-ac58-594f919930c8_100x.png?v=1745942784"
+      }
+    ],
+    "carats": ["2", "3", "4", "5"],
+    "metals": [
+      { "name": "Platinum", "value": "platinum" },
+      { "name": "14K White Gold", "value": "white gold" },
+      { "name": "14K Rose Gold", "value": "rose gold" },
+      { "name": "14K Yellow Gold", "value": "yellow gold" }
+    ],
+    "settings": {
+      "metal": "PLATINUM",
+      "style": "MAJESTIC SETTING",
+      "sustainableEthical": "Sustainable, ethical, and recycled",
+      "trendyAppearance": "Royal grandeur",
+      "accentGems": "Majestic Gems",
+      "sideDiamondsWeight": "Side Diamonds Weight",
+      "sideDiamondsQuality": "D-E / VVS",
+      "sideDiamondsOrigin": "LAB GROWN",
+      "superiorGrade": "Superior grade",
+      "ecoFriendlyDiamond": "Eco-friendly diamond"
+    },
+    "features": [
+      "Free 30 Days Returns",
+      "Our Price includes Metal & Stones",
+      "Transparent Quality & reliable certification",
+      "Free safe shipping - Most delivery within 5-7 weeks",
+      "Contact us and let us check what we can do for you"
+    ],
+    "freeGift": {
+      "title": "Complimentary Pearl Earrings with Orders Over $3,000",
+      "value": "$280 USD",
+      "image": "/placeholder.svg?height=50&width=50"
+    }
+  }
+]

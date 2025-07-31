@@ -1,0 +1,613 @@
+{
+  "rings": {
+    "title": "Rings",
+    "description": "Discover our exquisite collection of rings, from elegant solitaires to statement pieces.",
+    "products": [
+      {
+        "id": "aurora-ring",
+        "name": "Aurora",
+        "basePrice": 4315,
+        "defaultImage": "/placeholder.svg?height=300&width=300",
+        "shapes": [
+          { "id": "round", "name": "Round", "icon": "●" },
+          { "id": "square", "name": "Square", "icon": "◆" },
+          { "id": "oval", "name": "Oval", "icon": "◯" }
+        ],
+        "metals": [
+          { "id": "yellow-gold", "name": "Yellow Gold", "color": "#FFD700", "priceMultiplier": 1 },
+          { "id": "white-gold", "name": "White Gold", "color": "#E5E5E5", "priceMultiplier": 1.1 },
+          { "id": "rose-gold", "name": "Rose Gold", "color": "#E8B4A0", "priceMultiplier": 1.05 },
+          { "id": "platinum", "name": "Platinum", "color": "#C0C0C0", "priceMultiplier": 1.3 }
+        ],
+        "carats": [
+          { "value": "1", "priceMultiplier": 1 },
+          { "value": "1.5", "priceMultiplier": 1.4 },
+          { "value": "2", "priceMultiplier": 1.8 },
+          { "value": "2.5", "priceMultiplier": 2.2 },
+          { "value": "3", "priceMultiplier": 2.6 }
+        ],
+        "variants": [
+          {
+            "shape": "round",
+            "metal": "yellow-gold",
+            "image": "/placeholder.svg?height=300&width=300&text=Aurora+Round+Gold"
+          },
+          {
+            "shape": "round",
+            "metal": "white-gold",
+            "image": "/placeholder.svg?height=300&width=300&text=Aurora+Round+White"
+          },
+          {
+            "shape": "square",
+            "metal": "yellow-gold",
+            "image": "/placeholder.svg?height=300&width=300&text=Aurora+Square+Gold"
+          }
+        ]
+      },
+      {
+        "id": "celestial-ring",
+        "name": "Celestial",
+        "basePrice": 5200,
+        "defaultImage": "/placeholder.svg?height=300&width=300",
+        "shapes": [
+          { "id": "round", "name": "Round", "icon": "●" },
+          { "id": "square", "name": "Square", "icon": "◆" },
+          { "id": "oval", "name": "Oval", "icon": "◯" }
+        ],
+        "metals": [
+          { "id": "yellow-gold", "name": "Yellow Gold", "color": "#FFD700", "priceMultiplier": 1 },
+          { "id": "white-gold", "name": "White Gold", "color": "#E5E5E5", "priceMultiplier": 1.1 },
+          { "id": "rose-gold", "name": "Rose Gold", "color": "#E8B4A0", "priceMultiplier": 1.05 }
+        ],
+        "carats": [
+          { "value": "1", "priceMultiplier": 1 },
+          { "value": "2", "priceMultiplier": 1.8 },
+          { "value": "3", "priceMultiplier": 2.6 }
+        ],
+        "variants": [
+          {
+            "shape": "round",
+            "metal": "yellow-gold",
+            "image": "/placeholder.svg?height=300&width=300&text=Celestial+Round+Gold"
+          }
+        ]
+      },
+      {
+        "id": "radiance-ring",
+        "name": "Radiance",
+        "basePrice": 3800,
+        "defaultImage": "/placeholder.svg?height=300&width=300",
+        "shapes": [
+          { "id": "round", "name": "Round", "icon": "●" },
+          { "id": "square", "name": "Square", "icon": "◆" },
+          { "id": "oval", "name": "Oval", "icon": "◯" }
+        ],
+        "metals": [
+          { "id": "yellow-gold", "name": "Yellow Gold", "color": "#FFD700", "priceMultiplier": 1 },
+          { "id": "white-gold", "name": "White Gold", "color": "#E5E5E5", "priceMultiplier": 1.1 },
+          { "id": "rose-gold", "name": "Rose Gold", "color": "#E8B4A0", "priceMultiplier": 1.05 }
+        ],
+        "carats": [
+          { "value": "0.5", "priceMultiplier": 0.7 },
+          { "value": "1", "priceMultiplier": 1 },
+          { "value": "1.5", "priceMultiplier": 1.4 },
+          { "value": "2", "priceMultiplier": 1.8 }
+        ],
+        "variants": [
+          {
+            "shape": "round",
+            "metal": "yellow-gold",
+            "image": "/placeholder.svg?height=300&width=300&text=Radiance+Round+Gold"
+          }
+        ]
+      },
+      {
+        "id": "elegance-ring",
+        "name": "Elegance",
+        "basePrice": 6500,
+        "defaultImage": "/placeholder.svg?height=300&width=300",
+        "shapes": [
+          { "id": "round", "name": "Round", "icon": "●" },
+          { "id": "square", "name": "Square", "icon": "◆" },
+          { "id": "oval", "name": "Oval", "icon": "◯" }
+        ],
+        "metals": [
+          { "id": "yellow-gold", "name": "Yellow Gold", "color": "#FFD700", "priceMultiplier": 1 },
+          { "id": "white-gold", "name": "White Gold", "color": "#E5E5E5", "priceMultiplier": 1.1 },
+          { "id": "platinum", "name": "Platinum", "color": "#C0C0C0", "priceMultiplier": 1.3 }
+        ],
+        "carats": [
+          { "value": "2", "priceMultiplier": 1 },
+          { "value": "3", "priceMultiplier": 1.4 },
+          { "value": "4", "priceMultiplier": 1.8 }
+        ],
+        "variants": [
+          {
+            "shape": "round",
+            "metal": "yellow-gold",
+            "image": "/placeholder.svg?height=300&width=300&text=Elegance+Round+Gold"
+          }
+        ]
+      }
+    ]
+  },
+  "necklaces": {
+    "title": "Necklaces",
+    "description": "Elegant necklaces to complement your style, from delicate chains to statement pieces.",
+    "products": [
+      {
+        "id": "pearl-necklace",
+        "name": "Pearl Elegance",
+        "basePrice": 2800,
+        "defaultImage": "/placeholder.svg?height=300&width=300",
+        "shapes": [
+          { "id": "round", "name": "Round", "icon": "●" },
+          { "id": "oval", "name": "Oval", "icon": "◯" }
+        ],
+        "metals": [
+          { "id": "yellow-gold", "name": "Yellow Gold", "color": "#FFD700", "priceMultiplier": 1 },
+          { "id": "white-gold", "name": "White Gold", "color": "#E5E5E5", "priceMultiplier": 1.1 }
+        ],
+        "carats": [
+          { "value": "1", "priceMultiplier": 1 },
+          { "value": "1.5", "priceMultiplier": 1.3 }
+        ],
+        "variants": []
+      }
+    ]
+  },
+  "earrings": {
+    "title": "Earrings",
+    "description": "Beautiful earrings from subtle studs to dramatic drops.",
+    "products": [
+      {
+        "id": "diamond-studs",
+        "name": "Diamond Studs",
+        "basePrice": 1500,
+        "defaultImage": "/placeholder.svg?height=300&width=300",
+        "shapes": [
+          { "id": "round", "name": "Round", "icon": "●" }
+        ],
+        "metals": [
+          { "id": "yellow-gold", "name": "Yellow Gold", "color": "#FFD700", "priceMultiplier": 1 },
+          { "id": "white-gold", "name": "White Gold", "color": "#E5E5E5", "priceMultiplier": 1.1 }
+        ],
+        "carats": [
+          { "value": "0.5", "priceMultiplier": 1 },
+          { "value": "1", "priceMultiplier": 1.8 }
+        ],
+        "variants": []
+      }
+    ]
+  },
+  "bracelets": {
+    "title": "Bracelets",
+    "description": "Sophisticated bracelets to adorn your wrist with elegance.",
+    "products": [
+      {
+        "id": "round-lab-diamond-tennis-bracelet-1",
+        "name": "ROUND LAB DIAMOND TENNIS BRACELET (3 CT. TW.)",
+        "basePrice": 2995,
+        "defaultImage": "/placeholder.svg?height=500&width=500&text=Tennis+Bracelet+Main",
+        "description": "A stunning tennis bracelet featuring round lab-grown diamonds in a classic setting.",
+        "shapes": [
+          { "id": "round", "name": "Round", "icon": "●" }
+        ],
+        "metals": [
+          { "id": "rose-gold", "name": "Rose Gold", "color": "#FFB6C1", "priceMultiplier": 1 },
+          { "id": "white-gold", "name": "White Gold", "color": "#C0C0C0", "priceMultiplier": 1 },
+          { "id": "yellow-gold", "name": "Yellow Gold", "color": "#FFD700", "priceMultiplier": 1 }
+        ],
+        "carats": [
+          { "value": "1", "priceMultiplier": 1 },
+          { "value": "2", "priceMultiplier": 1.5 },
+          { "value": "3", "priceMultiplier": 2 },
+          { "value": "4", "priceMultiplier": 2.5 },
+          { "value": "5", "priceMultiplier": 3 }
+        ],
+        "variants": [
+          {
+            "shape": "round",
+            "metal": "rose-gold",
+            "image": "/placeholder.svg?height=500&width=500&text=Tennis+Bracelet+Main"
+          },
+          {
+            "shape": "round",
+            "metal": "white-gold",
+            "image": "/placeholder.svg?height=500&width=500&text=Tennis+Bracelet+Side"
+          },
+          {
+            "shape": "round",
+            "metal": "yellow-gold",
+            "image": "/placeholder.svg?height=500&width=500&text=Tennis+Bracelet+Detail"
+          }
+        ],
+        "badge": "MOST LOVED",
+        "isLoved": true
+      },
+      {
+        "id": "round-lab-diamond-tennis-bracelet-2",
+        "name": "ROUND LAB DIAMOND TENNIS BRACELET (3 CT. TW.)",
+        "basePrice": 2995,
+        "defaultImage": "/placeholder.svg?height=500&width=500&text=Tennis+Bracelet+2+Main",
+        "description": "A stunning tennis bracelet featuring round lab-grown diamonds in a classic setting.",
+        "shapes": [
+          { "id": "round", "name": "Round", "icon": "●" }
+        ],
+        "metals": [
+          { "id": "rose-gold", "name": "Rose Gold", "color": "#FFB6C1", "priceMultiplier": 1 },
+          { "id": "white-gold", "name": "White Gold", "color": "#C0C0C0", "priceMultiplier": 1 },
+          { "id": "yellow-gold", "name": "Yellow Gold", "color": "#FFD700", "priceMultiplier": 1 }
+        ],
+        "carats": [
+          { "value": "1", "priceMultiplier": 1 },
+          { "value": "2", "priceMultiplier": 1.5 },
+          { "value": "3", "priceMultiplier": 2 },
+          { "value": "4", "priceMultiplier": 2.5, "available": false },
+          { "value": "5", "priceMultiplier": 3 }
+        ],
+        "variants": [
+          {
+            "shape": "round",
+            "metal": "rose-gold",
+            "image": "/placeholder.svg?height=500&width=500&text=Tennis+Bracelet+2+Main"
+          },
+          {
+            "shape": "round",
+            "metal": "white-gold",
+            "image": "/placeholder.svg?height=500&width=500&text=Tennis+Bracelet+2+Side"
+          },
+          {
+            "shape": "round",
+            "metal": "yellow-gold",
+            "image": "/placeholder.svg?height=500&width=500&text=Tennis+Bracelet+2+Detail"
+          }
+        ]
+      },
+      {
+        "id": "olivetta-lab-diamond-tennis-bracelet",
+        "name": "OLIVETTA LAB DIAMOND TENNIS BRACELET (2 3/4 CT. TW.)",
+        "basePrice": 7000,
+        "defaultImage": "/placeholder.svg?height=500&width=500&text=Olivetta+Bracelet+Main",
+        "description": "An elegant Olivetta cut diamond tennis bracelet with exceptional brilliance.",
+        "shapes": [
+          { "id": "olivetta", "name": "Olivetta", "icon": "◆" }
+        ],
+        "metals": [
+          { "id": "white-gold", "name": "White Gold", "color": "#C0C0C0", "priceMultiplier": 1 },
+          { "id": "platinum", "name": "Platinum", "color": "#E5E4E2", "priceMultiplier": 1.2 }
+        ],
+        "carats": [
+          { "value": "2", "priceMultiplier": 1 },
+          { "value": "2.5", "priceMultiplier": 1.2 },
+          { "value": "2.75", "priceMultiplier": 1.3 },
+          { "value": "3", "priceMultiplier": 1.4 }
+        ],
+        "variants": [
+          {
+            "shape": "olivetta",
+            "metal": "white-gold",
+            "image": "/placeholder.svg?height=500&width=500&text=Olivetta+Bracelet+Main"
+          },
+          {
+            "shape": "olivetta",
+            "metal": "platinum",
+            "image": "/placeholder.svg?height=500&width=500&text=Olivetta+Bracelet+Side"
+          }
+        ]
+      },
+      {
+        "id": "azura-sapphire-and-diamond-bracelet",
+        "name": "AZURA SAPPHIRE AND DIAMOND BRACELET (1/2 CT. TW.) IN 18K WHITE GOLD",
+        "basePrice": 3595,
+        "defaultImage": "https://image.brilliantearth.com/media/product_images/EE/BE5SD336_white_top.jpg",
+        "description": "A beautiful sapphire and diamond bracelet featuring alternating blue sapphires and diamonds.",
+        "shapes": [
+          { "id": "round", "name": "Round", "icon": "●" }
+        ],
+        "metals": [
+          { "id": "white-gold", "name": "White Gold", "color": "#C0C0C0", "priceMultiplier": 1 },
+          { "id": "yellow-gold", "name": "Yellow Gold", "color": "#FFD700", "priceMultiplier": 1.1 }
+        ],
+        "carats": [
+          { "value": "0.5", "priceMultiplier": 1 },
+          { "value": "0.75", "priceMultiplier": 1.2 },
+          { "value": "1", "priceMultiplier": 1.4 },
+          { "value": "1.5", "priceMultiplier": 1.6, "available": false }
+        ],
+        "variants": [
+          {
+            "shape": "round",
+            "metal": "white-gold",
+            "image": "https://image.brilliantearth.com/media/product_images/EE/BE5SD336_white_top.jpg"
+          },
+          {
+            "shape": "round",
+            "metal": "yellow-gold",
+            "image": "https://image.brilliantearth.com/media/product_images/9L/BE5SD336-18KW_022.jpg"
+          }
+        ]
+      },
+      {
+        "id": "classic-diamond-tennis-bracelet",
+        "name": "CLASSIC DIAMOND TENNIS BRACELET (2 CT. TW.)",
+        "basePrice": 2495,
+        "defaultImage": "/placeholder.svg?height=500&width=500&text=Classic+Tennis+Main",
+        "description": "A timeless tennis bracelet with perfectly matched diamonds in a secure setting.",
+        "shapes": [
+          { "id": "round", "name": "Round", "icon": "●" }
+        ],
+        "metals": [
+          { "id": "rose-gold", "name": "Rose Gold", "color": "#FFB6C1", "priceMultiplier": 1 },
+          { "id": "white-gold", "name": "White Gold", "color": "#C0C0C0", "priceMultiplier": 1 }
+        ],
+        "carats": [
+          { "value": "1", "priceMultiplier": 1 },
+          { "value": "2", "priceMultiplier": 1.5 },
+          { "value": "3", "priceMultiplier": 2 }
+        ],
+        "variants": [
+          {
+            "shape": "round",
+            "metal": "rose-gold",
+            "image": "/placeholder.svg?height=500&width=500&text=Classic+Tennis+Main"
+          },
+          {
+            "shape": "round",
+            "metal": "white-gold",
+            "image": "/placeholder.svg?height=500&width=500&text=Classic+Tennis+Side"
+          }
+        ]
+      },
+      {
+        "id": "premium-diamond-tennis-bracelet",
+        "name": "PREMIUM DIAMOND TENNIS BRACELET (4 CT. TW.)",
+        "basePrice": 3995,
+        "defaultImage": "/placeholder.svg?height=500&width=500&text=Premium+Tennis+Main",
+        "description": "A luxurious tennis bracelet featuring premium diamonds with exceptional fire and brilliance.",
+        "shapes": [
+          { "id": "round", "name": "Round", "icon": "●" }
+        ],
+        "metals": [
+          { "id": "rose-gold", "name": "Rose Gold", "color": "#FFB6C1", "priceMultiplier": 1 },
+          { "id": "white-gold", "name": "White Gold", "color": "#C0C0C0", "priceMultiplier": 1 },
+          { "id": "yellow-gold", "name": "Yellow Gold", "color": "#FFD700", "priceMultiplier": 1 }
+        ],
+        "carats": [
+          { "value": "3", "priceMultiplier": 1.5 },
+          { "value": "4", "priceMultiplier": 2 },
+          { "value": "5", "priceMultiplier": 2.5 }
+        ],
+        "variants": [
+          {
+            "shape": "round",
+            "metal": "rose-gold",
+            "image": "/placeholder.svg?height=500&width=500&text=Premium+Tennis+Main"
+          },
+          {
+            "shape": "round",
+            "metal": "white-gold",
+            "image": "/placeholder.svg?height=500&width=500&text=Premium+Tennis+Side"
+          },
+          {
+            "shape": "round",
+            "metal": "yellow-gold",
+            "image": "/placeholder.svg?height=500&width=500&text=Premium+Tennis+Detail"
+          }
+        ],
+        "badge": "BEST SELLER"
+      },
+      {
+        "id": "emerald-cut-diamond-tennis-bracelet-3ct",
+        "name": "EMERALD CUT DIAMOND TENNIS BRACELET (3 CT. TW.)",
+        "basePrice": 5500,
+        "defaultImage": "/placeholder.svg?height=500&width=500&text=Emerald+Cut+Main",
+        "description": "An elegant emerald cut diamond tennis bracelet with sophisticated rectangular diamonds.",
+        "shapes": [
+          { "id": "emerald", "name": "Emerald", "icon": "◆" }
+        ],
+        "metals": [
+          { "id": "white-gold", "name": "White Gold", "color": "#C0C0C0", "priceMultiplier": 1 },
+          { "id": "platinum", "name": "Platinum", "color": "#E5E4E2", "priceMultiplier": 1.2 }
+        ],
+        "carats": [
+          { "value": "2", "priceMultiplier": 1 },
+          { "value": "3", "priceMultiplier": 1.5 },
+          { "value": "4", "priceMultiplier": 2 }
+        ],
+        "variants": [
+          {
+            "shape": "emerald",
+            "metal": "white-gold",
+            "image": "/placeholder.svg?height=500&width=500&text=Emerald+Cut+Main"
+          },
+          {
+            "shape": "emerald",
+            "metal": "platinum",
+            "image": "/placeholder.svg?height=500&width=500&text=Emerald+Cut+Side"
+          }
+        ]
+      },
+      {
+        "id": "ruby-and-diamond-bracelet",
+        "name": "RUBY AND DIAMOND BRACELET (1 CT. TW.)",
+        "basePrice": 4200,
+        "defaultImage": "/placeholder.svg?height=500&width=500&text=Ruby+Diamond+Main",
+        "description": "A stunning bracelet featuring alternating rubies and diamonds in an elegant design.",
+        "shapes": [
+          { "id": "round", "name": "Round", "icon": "●" }
+        ],
+        "metals": [
+          { "id": "white-gold", "name": "White Gold", "color": "#C0C0C0", "priceMultiplier": 1 },
+          { "id": "yellow-gold", "name": "Yellow Gold", "color": "#FFD700", "priceMultiplier": 1.1 }
+        ],
+        "carats": [
+          { "value": "0.75", "priceMultiplier": 1 },
+          { "value": "1", "priceMultiplier": 1.3 },
+          { "value": "1.5", "priceMultiplier": 1.6 }
+        ],
+        "variants": [
+          {
+            "shape": "round",
+            "metal": "white-gold",
+            "image": "/placeholder.svg?height=500&width=500&text=Ruby+Diamond+Main"
+          },
+          {
+            "shape": "round",
+            "metal": "yellow-gold",
+            "image": "/placeholder.svg?height=500&width=500&text=Ruby+Diamond+Side"
+          }
+        ]
+      },
+      {
+        "id": "delicate-diamond-tennis-bracelet",
+        "name": "DELICATE DIAMOND TENNIS BRACELET (1.5 CT. TW.)",
+        "basePrice": 1995,
+        "defaultImage": "/placeholder.svg?height=500&width=500&text=Delicate+Tennis+Main",
+        "description": "A delicate tennis bracelet perfect for everyday wear with sparkling diamonds.",
+        "shapes": [
+          { "id": "round", "name": "Round", "icon": "●" }
+        ],
+        "metals": [
+          { "id": "rose-gold", "name": "Rose Gold", "color": "#FFB6C1", "priceMultiplier": 1 },
+          { "id": "white-gold", "name": "White Gold", "color": "#C0C0C0", "priceMultiplier": 1 }
+        ],
+        "carats": [
+          { "value": "1", "priceMultiplier": 1 },
+          { "value": "1.5", "priceMultiplier": 1.2 },
+          { "value": "2", "priceMultiplier": 1.5 }
+        ],
+        "variants": [
+          {
+            "shape": "round",
+            "metal": "rose-gold",
+            "image": "/placeholder.svg?height=500&width=500&text=Delicate+Tennis+Main"
+          },
+          {
+            "shape": "round",
+            "metal": "white-gold",
+            "image": "/placeholder.svg?height=500&width=500&text=Delicate+Tennis+Side"
+          }
+        ]
+      },
+      {
+        "id": "vintage-inspired-diamond-bracelet",
+        "name": "VINTAGE INSPIRED DIAMOND BRACELET (2.5 CT. TW.)",
+        "basePrice": 3200,
+        "defaultImage": "/placeholder.svg?height=500&width=500&text=Vintage+Bracelet+Main",
+        "description": "A vintage-inspired bracelet with intricate details and brilliant diamonds.",
+        "shapes": [
+          { "id": "round", "name": "Round", "icon": "●" }
+        ],
+        "metals": [
+          { "id": "rose-gold", "name": "Rose Gold", "color": "#FFB6C1", "priceMultiplier": 1 },
+          { "id": "white-gold", "name": "White Gold", "color": "#C0C0C0", "priceMultiplier": 1 }
+        ],
+        "carats": [
+          { "value": "2", "priceMultiplier": 1 },
+          { "value": "2.5", "priceMultiplier": 1.3 },
+          { "value": "3", "priceMultiplier": 1.6 }
+        ],
+        "variants": [
+          {
+            "shape": "round",
+            "metal": "rose-gold",
+            "image": "/placeholder.svg?height=500&width=500&text=Vintage+Bracelet+Main"
+          },
+          {
+            "shape": "round",
+            "metal": "white-gold",
+            "image": "/placeholder.svg?height=500&width=500&text=Vintage+Bracelet+Side"
+          }
+        ]
+      },
+      {
+        "id": "princess-cut-diamond-tennis-bracelet",
+        "name": "PRINCESS CUT DIAMOND TENNIS BRACELET (3.5 CT. TW.)",
+        "basePrice": 6200,
+        "defaultImage": "/placeholder.svg?height=500&width=500&text=Princess+Cut+Main",
+        "description": "A modern tennis bracelet featuring princess cut diamonds with exceptional sparkle.",
+        "shapes": [
+          { "id": "princess", "name": "Princess", "icon": "◆" }
+        ],
+        "metals": [
+          { "id": "white-gold", "name": "White Gold", "color": "#C0C0C0", "priceMultiplier": 1 },
+          { "id": "platinum", "name": "Platinum", "color": "#E5E4E2", "priceMultiplier": 1.2 }
+        ],
+        "carats": [
+          { "value": "3", "priceMultiplier": 1.5 },
+          { "value": "3.5", "priceMultiplier": 1.8 },
+          { "value": "4", "priceMultiplier": 2 }
+        ],
+        "variants": [
+          {
+            "shape": "princess",
+            "metal": "white-gold",
+            "image": "/placeholder.svg?height=500&width=500&text=Princess+Cut+Main"
+          },
+          {
+            "shape": "princess",
+            "metal": "platinum",
+            "image": "/placeholder.svg?height=500&width=500&text=Princess+Cut+Side"
+          }
+        ]
+      },
+      {
+        "id": "emerald-cut-diamond-tennis-bracelet-4ct",
+        "name": "EMERALD CUT DIAMOND TENNIS BRACELET (4 CT. TW.)",
+        "basePrice": 4995,
+        "defaultImage": "/placeholder.svg?height=500&width=500&text=Emerald+4ct+Main",
+        "description": "A sophisticated emerald cut diamond tennis bracelet with exceptional clarity and brilliance.",
+        "shapes": [
+          { "id": "emerald", "name": "Emerald", "icon": "◆" }
+        ],
+        "metals": [
+          { "id": "yellow-gold", "name": "Yellow Gold", "color": "#FFD700", "priceMultiplier": 1.1 },
+          { "id": "white-gold", "name": "White Gold", "color": "#C0C0C0", "priceMultiplier": 1 }
+        ],
+        "carats": [
+          { "value": "3", "priceMultiplier": 1.5 },
+          { "value": "4", "priceMultiplier": 2 },
+          { "value": "5", "priceMultiplier": 2.5 }
+        ],
+        "variants": [
+          {
+            "shape": "emerald",
+            "metal": "yellow-gold",
+            "image": "/placeholder.svg?height=500&width=500&text=Emerald+4ct+Main"
+          },
+          {
+            "shape": "emerald",
+            "metal": "white-gold",
+            "image": "/placeholder.svg?height=500&width=500&text=Emerald+4ct+Side"
+          }
+        ]
+      }
+    ]
+  },
+  "pendants": {
+    "title": "Pendants",
+    "description": "Delicate pendants that make a statement of refined taste.",
+    "products": [
+      {
+        "id": "solitaire-pendant",
+        "name": "Solitaire Pendant",
+        "basePrice": 2100,
+        "defaultImage": "/placeholder.svg?height=300&width=300",
+        "shapes": [
+          { "id": "round", "name": "Round", "icon": "●" },
+          { "id": "oval", "name": "Oval", "icon": "◯" }
+        ],
+        "metals": [
+          { "id": "yellow-gold", "name": "Yellow Gold", "color": "#FFD700", "priceMultiplier": 1 },
+          { "id": "white-gold", "name": "White Gold", "color": "#E5E5E5", "priceMultiplier": 1.1 }
+        ],
+        "carats": [
+          { "value": "0.5", "priceMultiplier": 1 },
+          { "value": "1", "priceMultiplier": 1.6 }
+        ],
+        "variants": []
+      }
+    ]
+  }
+}
