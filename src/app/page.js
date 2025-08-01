@@ -1,6 +1,7 @@
 import CategoryShowcase from "@/components/category-showcase"
 import HandcraftedSection from "@/components/handcrafted-section"
 import ScrollingContent from "@/components/scrolling-content"
+import Test from "@/components/test"
 import { VideoShowcase } from "@/components/video-showcase"
 
 
@@ -46,7 +47,7 @@ export default function Home() {
       <VideoShowcase/>
       <ScrollingContent/>
       <HandcraftedSection/>
-
+         
     </div>
   )
 }

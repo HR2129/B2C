@@ -182,7 +182,7 @@ export default function Navbar() {
             <Phone className="w-5 h-5 text-black hover:text-gray-300 transition-colors cursor-pointer" />
             <Search className="w-5 h-5 text-black hover:text-gray-300 transition-colors cursor-pointer" />
             <Heart className="w-5 h-5 text-black hover:text-gray-300 transition-colors cursor-pointer" />
-            <User className="w-5 h-5 text-black hover:text-gray-300 transition-colors cursor-pointer" />
+           <Link href="/login"> <User className="w-5 h-5 text-black hover:text-gray-300 transition-colors cursor-pointer" /></Link>
             <ShoppingBag className="w-5 h-5 text-black hover:text-gray-300 transition-colors cursor-pointer" />
           </div>
         </div>
