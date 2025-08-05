@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Image from "next/image"
+import { motion } from "framer-motion"
 
 export default function HandcraftedSection() {
   const [activeCategory, setActiveCategory] = useState("NECKLACES")
@@ -81,19 +82,50 @@ export default function HandcraftedSection() {
       currentDisplayItems = necklaceItems
   }
 
+  // Animation variants for the title section
+  const titleVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
+  }
+
+  // Animation variants for category buttons
+  const buttonVariants = {
+    hidden: { opacity: 0, y: 10 },
+    visible: (index) => ({
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.3, delay: index * 0.1, ease: "easeOut" },
+    }),
+  }
+
+  // Animation variants for image cards
+  const cardVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: (index) => ({
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.4, delay: index * 0.15, ease: "easeOut" },
+    }),
+  }
+
   return (
     <section className="bg-white py-16 lg:py-24">
       <div className="max-w-7xl mx-auto px-4 lg:px-8">
         {/* Title */}
-        <h2 className="text-4xl lg:text-5xl font-light text-gray-800 mb-8">
-          <span className="font-serif font-normal text-gray-900">Handcrafted</span>{" "}
+        <motion.h2
+          className="text-4xl lg:text-5xl font-light text-gray-800 mb-8"
+          variants={titleVariants}
+          initial="hidden"
+          whileInView="visible"
+        >
+          <span className="font-serif font-normal text-gray-900">Handpicked</span>{" "}
           <span className="font-serif italic text-red-400/70">For You</span>
-        </h2>
+        </motion.h2>
 
         {/* Category Buttons */}
         <div className="flex space-x-4 mb-12">
-          {categories.map((category) => (
-            <button
+          {categories.map((category, index) => (
+            <motion.button
               key={category.name}
               className={`px-6 py-2 rounded-full text-sm font-medium transition-colors duration-300 ${
                 activeCategory === category.name
@@ -101,16 +133,30 @@ export default function HandcraftedSection() {
                   : "bg-gray-100 text-gray-600 hover:bg-gray-200"
               }`}
               onClick={() => setActiveCategory(category.name)}
+              variants={buttonVariants}
+              initial="hidden"
+              whileInView="visible"
+              custom={index}
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
             >
               {category.label}
-            </button>
+            </motion.button>
           ))}
         </div>
 
         {/* Image Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {currentDisplayItems.map((item) => (
-            <div key={item.id} className="relative rounded-lg overflow-hidden shadow-lg group cursor-pointer">
+          {currentDisplayItems.map((item, index) => (
+            <motion.div
+              key={item.id}
+              className="relative rounded-lg overflow-hidden shadow-lg group cursor-pointer"
+              variants={cardVariants}
+              initial="hidden"
+              whileInView="visible"
+              custom={index}
+              whileHover={{ scale: 1.03, transition: { duration: 0.3 } }}
+            >
               <div className="aspect-[3/4] relative">
                 <Image
                   src={item.image || "/placeholder.svg"}
@@ -118,15 +164,21 @@ export default function HandcraftedSection() {
                   fill
                   className="object-cover transition-transform duration-300 group-hover:scale-105"
                 />
-                {/* Gradient overlay matching the image background */}
-                
-                {/* Darkening overlay on hover */}
-                <div className="absolute inset-0 bg-black/10 group-hover:bg-black/30 transition-all duration-300"></div>
+                <motion.div
+                  className="absolute inset-0 bg-black/10 group-hover:bg-black/30 transition-all duration-300"
+                  initial={{ opacity: 0.1 }}
+                  whileHover={{ opacity: 0.3 }}
+                />
               </div>
-              <div className="absolute bottom-6 left-1/2 -translate-x-1/2 bg-white/90 backdrop-blur-sm px-6 py-3 rounded-full shadow-md">
+              <motion.div
+                className="absolute bottom-6 left-1/2 -translate-x-1/2 bg-white/90 backdrop-blur-sm px-6 py-3 rounded-full shadow-md"
+                initial={{ y: 10, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
+                transition={{ duration: 0.3, delay: index * 0.15 + 0.2 }}
+              >
                 <h3 className="text-gray-800 text-sm font-semibold tracking-wider">{item.title}</h3>
-              </div>
-            </div>
+              </motion.div>
+            </motion.div>
           ))}
         </div>
       </div>

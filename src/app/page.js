@@ -1,7 +1,6 @@
 import CategoryShowcase from "@/components/category-showcase"
 import HandcraftedSection from "@/components/handcrafted-section"
 import ScrollingContent from "@/components/scrolling-content"
-import Test from "@/components/test"
 import { VideoShowcase } from "@/components/video-showcase"
 
 
@@ -17,7 +16,6 @@ export default function Home() {
             className="object-cover"
             priority
           /> */}
-
           <div className="text-white space-y-8 fixed bottom-6 left-6 z-20">
                 {/* CTA Button */}
                 <div className="text-center lg:text-left pt-8">
@@ -26,7 +24,6 @@ export default function Home() {
                   </button>
                 </div>
               </div>    
-
         {/* WhatsApp Float Button */}
         <div className="fixed bottom-6 right-6 z-20">
           <button className="bg-green-500 hover:bg-green-600 text-white p-3 rounded-full shadow-lg transition-colors duration-300">
@@ -35,12 +32,7 @@ export default function Home() {
             </svg>
           </button>
         </div>
-          
         </div>
-
-       
-
-      
       </main>
       <CategoryShowcase/>
       <hr className="max-w-7xl mx-auto"/>

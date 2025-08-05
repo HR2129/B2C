@@ -1,15 +1,9 @@
 import React from "react";
 
-/**
- * SSR-friendly footer based on the provided image.
- * - Vertical lines between info bar sections
- * - Responsive, no client JS.
- * - Replace logo SVG/paths as needed for your brand.
- */
 export default function Footer() {
   return (
     <footer
-      className="w-full text-[#182147] font-sans"
+      className="w-full  text-[#182147] font-sans"
       style={{
        backgroundImage: "url(https://www.artemerstudio.com/cdn/shop/files/footer-texture.jpg?v=1627477222)",
         transition: "background 0.5s",
