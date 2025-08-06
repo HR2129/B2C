@@ -1,3 +1,4 @@
+import AboutUs from "@/components/abouts"
 import CategoryShowcase from "@/components/category-showcase"
 import HandcraftedSection from "@/components/handcrafted-section"
 import ScrollingContent from "@/components/scrolling-content"
@@ -39,7 +40,7 @@ export default function Home() {
       <VideoShowcase/>
       <ScrollingContent/>
       <HandcraftedSection/>
-         
+         <AboutUs/>
     </div>
   )
 }
