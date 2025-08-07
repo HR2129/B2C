@@ -37,7 +37,7 @@ const AboutUs = () => {
   };
 
   return (
-    <section className="bg-gray-900 py-20 md:py-32 text-white">
+    <section className="bg-gradient-to-b from-white  via-orange-200  to-white   py-20 md:py-32 ">
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex flex-col md:flex-row items-center gap-16">
           {/* Image Section */}
@@ -70,10 +70,10 @@ const AboutUs = () => {
             <h2 className="text-5xl md:text-6xl font-serif text-amber-300 mb-8 tracking-tight">
               Our Legacy
             </h2>
-            <p className="text-lg text-gray-300 leading-relaxed mb-6 font-light">
+            <p className="text-lg text-black leading-relaxed mb-6 font-light">
               At Indian B2C, we weave timeless elegance into every piece of jewelry, celebrating individuality with unparalleled craftsmanship. Our creations marry the finest materials with artistry, transforming moments into cherished heirlooms.
             </p>
-            <p className="text-lg text-gray-300 leading-relaxed mb-8 font-light">
+            <p className="text-lg text-black leading-relaxed mb-8 font-light">
               Rooted in a vision to elevate luxury, we ethically source gems and collaborate with master artisans to craft perfection. Explore our collections, where every jewel narrates a story of sophistication and brilliance.
             </p>
             <motion.a

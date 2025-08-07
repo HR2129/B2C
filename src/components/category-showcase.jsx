@@ -89,7 +89,7 @@ export default function CategoryShowcase() {
           {categories.map((category, index) => (
             <Link key={index} href={`/${category.slug}`}>
               <motion.div
-                className="relative h-[24rem] w-[20rem] rounded-lg overflow-hidden shadow-lg aspect-square group cursor-pointer drop-shadow-lg"
+                className="relative h-[25rem] w-[20rem] sm:h-[20rem] sm:w-[14rem]  rounded-lg overflow-hidden shadow-lg aspect-square group cursor-pointer drop-shadow-lg"
                 variants={cardVariants}
                 initial="hidden"
                 whileInView="visible"

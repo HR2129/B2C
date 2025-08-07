@@ -3,11 +3,11 @@ import React from "react";
 export default function Footer() {
   return (
     <footer
-      className="w-full  text-[#182147] font-sans"
-      style={{
-       backgroundImage: "url(https://www.artemerstudio.com/cdn/shop/files/footer-texture.jpg?v=1627477222)",
-        transition: "background 0.5s",
-      }}
+      className="w-full  text-[#182147] font-sans bg-white"
+      // style={{
+      //  backgroundImage: "url(https://www.artemerstudio.com/cdn/shop/files/footer-texture.jpg?v=1627477222)",
+      //   transition: "background 0.5s",
+      // }}
     >
       {/* <hr className="max-w-[100rem] mx-auto text-[#d8d8d8]" /> */}
       {/* Top Info Bar */}

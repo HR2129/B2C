@@ -107,7 +107,7 @@ export default function Navbar() {
             </div>
 
             {/* Ready to Ship Dropdown */}
-            <div
+            {/* <div
               className="relative"
               onMouseEnter={() => handleMouseEnter("readytoship")}
               onMouseLeave={handleMouseLeave}
@@ -118,7 +118,7 @@ export default function Navbar() {
               >
                 READY TO SHIP
               </Link>
-            </div>
+            </div> */}
 
             {/* Bridal Dropdown */}
             <div className="relative" onMouseEnter={() => handleMouseEnter("bridal")} onMouseLeave={handleMouseLeave}>
@@ -163,14 +163,14 @@ export default function Navbar() {
             </div>
 
             {/* Forces of Tyaani Dropdown */}
-            <div className="relative" onMouseEnter={() => handleMouseEnter("forces")} onMouseLeave={handleMouseLeave}>
+            {/* <div className="relative" onMouseEnter={() => handleMouseEnter("forces")} onMouseLeave={handleMouseLeave}>
               <a
                 href="#"
                 className="text-black hover:text-red-400 text-sm font-medium transition-colors flex items-center"
               >
                 FORCES OF TYAANI
               </a>
-            </div>
+            </div> */}
           </nav>
 
           {/* Mobile menu button */}
@@ -451,7 +451,7 @@ export default function Navbar() {
           )}
         </AnimatePresence>
 
-        <AnimatePresence>
+        {/* <AnimatePresence>
           {activeDropdown === "readytoship" && (
             <motion.div
               className="absolute top-full left-4 right-4 mt-2 backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20"
@@ -553,7 +553,7 @@ export default function Navbar() {
               </div>
             </motion.div>
           )}
-        </AnimatePresence>
+        </AnimatePresence> */}
 
         <AnimatePresence>
           {activeDropdown === "bridal" && (
@@ -683,12 +683,12 @@ export default function Navbar() {
                       <ul className="space-y-2">
                         <li>
                           <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                            Lumia by Tyaani
+                            Lumia 
                           </a>
                         </li>
                         <li>
                           <a href="#" className="text-gray-700 hover:text-red-400 text-sm transition-colors">
-                            Aurora by Tyaani
+                            Aurora 
                           </a>
                         </li>
                         <li>
@@ -847,7 +847,7 @@ export default function Navbar() {
           )}
         </AnimatePresence>
 
-        <AnimatePresence>
+        {/* <AnimatePresence>
           {activeDropdown === "forces" && (
             <motion.div
               className="absolute top-full left-4 right-4 mt-2 backdrop-blur-md bg-white/95 rounded-lg shadow-lg p-6 border border-white/20"
@@ -939,7 +939,7 @@ export default function Navbar() {
               </div>
             </motion.div>
           )}
-        </AnimatePresence>
+        </AnimatePresence> */}
       </div>
     </motion.header>
   )

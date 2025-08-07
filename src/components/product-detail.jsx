@@ -3,6 +3,8 @@
 import { useState, useEffect, useRef, useMemo } from "react"
 import { ChevronRight, Home, Play, ChevronDown, Check } from "lucide-react"
 import { useSearchParams, useRouter, usePathname } from "next/navigation"
+import { toast, ToastContainer } from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
 import ringsData from "@/data/rings.json"
 
 // Simple Button component to replace shadcn/ui
@@ -113,7 +115,6 @@ const metalColors = {
   silver: "#C0C0C0",
 }
 
-// Add this inside the ProductDetail function, right at the start
 export default function ProductDetail({ slug }) {
   console.log("🚀 ProductDetail component mounted with slug:", slug)
   console.log("📍 Current pathname:", typeof window !== "undefined" ? window.location.pathname : "SSR")
@@ -126,12 +127,20 @@ export default function ProductDetail({ slug }) {
 
   const [selectedCombinationId, setSelectedCombinationId] = useState("")
   const [selectedCarat, setSelectedCarat] = useState("")
-  const [currentImageIndex, setCurrentImageIndex] = useState(0)
+  const [selectedSize, setSelectedSize] = useState("")
+  const [currentMediaIndex, setCurrentMediaIndex] = useState(0)
   const [isScrollingTogether, setIsScrollingTogether] = useState(false)
+  const [zoom, setZoom] = useState(1)
+  const [zoomPosition, setZoomPosition] = useState({ x: 50, y: 50 })
+  const [isDragging, setIsDragging] = useState(false)
+  const [dragStart, setDragStart] = useState({ x: 0, y: 0 })
+  const [isZoomed, setIsZoomed] = useState(false)
+  const [isAddedToCart, setIsAddedToCart] = useState(false)
 
   const containerRef = useRef(null)
   const leftSideRef = useRef(null)
   const rightSideRef = useRef(null)
+  const mainImageRef = useRef(null)
 
   // Memoize the combinations calculation to prevent infinite loops
   const allCombinations = useMemo(() => {
@@ -152,11 +161,10 @@ export default function ProductDetail({ slug }) {
           image,
           thumbnail,
           id: `${shape}-${metal.value}`,
-          // Each combination can have different pricing/data
-          price: product.price + (metal.value === "platinum" ? 500 : 0), // Example: platinum costs more
+          price: product.price + (metal.value === "platinum" ? 500 : 0),
           originalPrice: product.originalPrice + (metal.value === "platinum" ? 600 : 0),
           sku: `${product.sku}-${shape.toUpperCase()}-${metal.value.toUpperCase().replace(" ", "")}`,
-          shipsIn: metal.value === "platinum" ? "4-6 weeks" : product.shipsIn, // Platinum takes longer
+          shipsIn: metal.value === "platinum" ? "4-6 weeks" : product.shipsIn,
         })
       }
     }
@@ -177,22 +185,57 @@ export default function ProductDetail({ slug }) {
       (img) => img.shape === selectedCombination.shape && img.metal === selectedCombination.metal,
     )
 
-    // If no specific images for this combination, show all images
     return filtered.length > 0
       ? filtered
       : [{ url: selectedCombination.image, thumbnail: selectedCombination.thumbnail }]
   }, [product, selectedCombination])
 
+  // Media items including images, video, and 3D model
+  const mediaItems = useMemo(() => {
+    if (!product || !selectedCombination) return []
+    
+    const images = currentCombinationImages.map((img, index) => ({
+      type: 'image',
+      url: img.url,
+      thumbnail: img.thumbnail || img.url,
+      alt: `${product.name} ${selectedCombination.shape} ${selectedCombination.metalName} ${index + 1}`
+    }))
+    
+    return [
+      {
+        type: '360',
+        url: '/360-placeholder.mp4',
+        thumbnail: '/placeholder.svg?height=100&width=100&text=360',
+        alt: '360° View'
+      },
+      {
+        type: 'video',
+        url: '/video-placeholder.mp4',
+        thumbnail: '/placeholder.svg?height=100&width=100&text=Video',
+        alt: 'Product Video'
+      },
+      ...images,
+      {
+        type: 'model',
+        url: '/model-placeholder.glb',
+        thumbnail: '/placeholder.svg?height=100&width=100&text=Model',
+        alt: '3D Model'
+      }
+    ]
+  }, [product, selectedCombination, currentCombinationImages])
+
   // Function to update URL with current selections
-  const updateURL = (shape, metal, carat) => {
+  const updateURL = (shape, metal, carat, size) => {
     const params = new URLSearchParams()
     params.set("shape", shape)
     params.set("metal", metal)
     if (carat) {
       params.set("carat", carat)
     }
+    if (size) {
+      params.set("size", size)
+    }
 
-    // Update URL without causing a page reload
     const newUrl = `${pathname}?${params.toString()}`
     router.replace(newUrl)
   }
@@ -203,8 +246,8 @@ export default function ProductDetail({ slug }) {
       const shapeFromUrl = searchParams.get("shape")
       const metalFromUrl = searchParams.get("metal")
       const caratFromUrl = searchParams.get("carat")
+      const sizeFromUrl = searchParams.get("size")
 
-      // Find the matching combination or use the first one
       let selectedComboId = allCombinations[0].id
       if (shapeFromUrl && metalFromUrl) {
         const foundCombo = allCombinations.find((combo) => combo.shape === shapeFromUrl && combo.metal === metalFromUrl)
@@ -213,11 +256,11 @@ export default function ProductDetail({ slug }) {
 
       setSelectedCombinationId(selectedComboId)
       setSelectedCarat(caratFromUrl || product.carats?.[0] || "")
+      setSelectedSize(sizeFromUrl || product.sizes?.[0] || "")
 
-      // If URL doesn't have params, update it with current selection
-      if (!shapeFromUrl || !metalFromUrl) {
+      if (!shapeFromUrl || !metalFromUrl || !sizeFromUrl) {
         const combo = allCombinations.find((c) => c.id === selectedComboId) || allCombinations[0]
-        updateURL(combo.shape, combo.metal, caratFromUrl || product.carats?.[0] || "")
+        updateURL(combo.shape, combo.metal, caratFromUrl || product.carats?.[0] || "", sizeFromUrl || product.sizes?.[0] || "")
       }
     }
   }, [product, allCombinations, searchParams])
@@ -231,19 +274,16 @@ export default function ProductDetail({ slug }) {
 
         const containerScrollTop = container.scrollTop
 
-        // Find the "Free Shipping & Returns" section
         const expandableSections = rightSide.querySelector(".space-y-4:last-child")
-        const freeShippingSection = expandableSections?.children[1] // Second details element (Free Shipping & Returns)
+        const freeShippingSection = expandableSections?.children[1]
 
         if (freeShippingSection) {
           const freeShippingSectionTop = freeShippingSection.offsetTop
           const rightSideTop = rightSide.offsetTop
 
-          // Calculate the absolute position of the Free Shipping section
           const absoluteFreeShippingTop = rightSideTop + freeShippingSectionTop
 
-          // Check if we've scrolled past the Free Shipping section
-          const shouldStartScrollingTogether = containerScrollTop >= absoluteFreeShippingTop - 100 // 100px buffer
+          const shouldStartScrollingTogether = containerScrollTop >= absoluteFreeShippingTop - 100
 
           if (shouldStartScrollingTogether && !isScrollingTogether) {
             setIsScrollingTogether(true)
@@ -260,6 +300,95 @@ export default function ProductDetail({ slug }) {
       return () => container.removeEventListener("scroll", handleScroll)
     }
   }, [isScrollingTogether])
+
+  // Zoom and drag handlers
+  const handleImageClick = (e) => {
+    if (!mainImageRef.current || mediaItems[currentMediaIndex]?.type !== 'image') return
+
+    setIsZoomed(!isZoomed)
+    if (!isZoomed) {
+      const rect = mainImageRef.current.getBoundingClientRect()
+      const x = (e.clientX - rect.left) / rect.width
+      const y = (e.clientY - rect.top) / rect.height
+      setZoom(2)
+      setZoomPosition({ x: x * 100, y: y * 100 })
+    } else {
+      setZoom(1)
+      setZoomPosition({ x: 50, y: 50 })
+    }
+  }
+
+  const handleMouseMove = (e) => {
+    if (!mainImageRef.current || mediaItems[currentMediaIndex]?.type !== 'image' || !isZoomed) return
+
+    const rect = mainImageRef.current.getBoundingClientRect()
+    const x = (e.clientX - rect.left) / rect.width
+    const y = (e.clientY - rect.top) / rect.height
+
+    setZoomPosition({
+      x: Math.max(0, Math.min(100, x * 100)),
+      y: Math.max(0, Math.min(100, y * 100))
+    })
+
+    if (isDragging) {
+      const dx = (e.clientX - dragStart.x) / (rect.width * zoom)
+      const dy = (e.clientY - dragStart.y) / (rect.height * zoom)
+
+      setZoomPosition((prev) => {
+        const newX = Math.max(0, Math.min(100, prev.x - dx * 100))
+        const newY = Math.max(0, Math.min(100, prev.y - dy * 100))
+        return { x: newX, y: newY }
+      })
+
+      setDragStart({ x: e.clientX, y: e.clientY })
+    }
+  }
+
+  const handleMouseDown = (e) => {
+    if (isZoomed && mediaItems[currentMediaIndex]?.type === 'image') {
+      setIsDragging(true)
+      setDragStart({ x: e.clientX, y: e.clientY })
+    }
+  }
+
+  const handleMouseUp = () => {
+    setIsDragging(false)
+  }
+
+  const handleMouseLeave = () => {
+    setIsDragging(false)
+    setIsZoomed(false)
+    setZoom(1)
+    setZoomPosition({ x: 50, y: 50 })
+  }
+
+  const handleSizeSelect = (size) => {
+    setSelectedSize(size)
+    if (selectedCombination) {
+      updateURL(selectedCombination.shape, selectedCombination.metal, selectedCarat, size)
+    }
+  }
+
+  const handleAddToCart = () => {
+    setIsAddedToCart(true)
+    toast.success(`${product.name} has been added to your cart!`, {
+      position: "top-right",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    })
+  }
+
+  const handleContinueShopping = () => {
+    router.push("/rings")
+  }
+
+  const handleCheckout = () => {
+    router.push("/checkout")
+  }
 
   if (!product || !selectedCombination) {
     return (
@@ -287,32 +416,18 @@ export default function ProductDetail({ slug }) {
     )
   }
 
-  const handleCombinationSelect = (combo) => {
-    setSelectedCombinationId(combo.id)
-    setCurrentImageIndex(0) // Reset to first image
-
-    // Update URL with new combination
-    updateURL(combo.shape, combo.metal, selectedCarat)
-  }
 
   const handleCaratSelect = (carat) => {
     setSelectedCarat(carat)
-
-    // Update URL with new carat
     if (selectedCombination) {
-      updateURL(selectedCombination.shape, selectedCombination.metal, carat)
+      updateURL(selectedCombination.shape, selectedCombination.metal, carat, selectedSize)
     }
   }
 
   return (
     <div className="min-h-screen bg-white py-20">
-      {/* Debug Info */}
-      {/* <div className="bg-yellow-100 p-2 text-xs">
-        <strong>Debug:</strong> Slug: {slug} | Product: {product?.name} | Combinations: {allCombinations.length}
-      </div> */}
-
-      {/* Breadcrumb */}
-      <div className="border-b border-gray-200 py-4 px-6">
+      <ToastContainer />
+      <div className="border-b border-gray-200 py-16 px-3">
         <div className="max-w-7xl mx-auto">
           <div className="flex items-center text-sm text-gray-600">
             <button
@@ -334,81 +449,104 @@ export default function ProductDetail({ slug }) {
         </div>
       </div>
 
-      {/* Main Product Section */}
       <div
         ref={containerRef}
         className="max-w-7xl mx-auto overflow-y-auto scrollbar-hide"
         style={{ height: "calc(100vh - 80px)", scrollbarWidth: "none", msOverflowStyle: "none" }}
       >
         <div className="grid grid-cols-12 gap-8 p-6">
-          {/* Left Side - Product Images */}
           <div ref={leftSideRef} className={`col-span-7 ${isScrollingTogether ? "relative" : "sticky top-6"} h-fit`}>
             <div className="grid grid-cols-12 gap-4">
-              {/* Thumbnails */}
               <div className="col-span-2">
                 <div className="space-y-4">
-                  {/* 360 View */}
-                  <div className="aspect-square border-2 border-gray-200 rounded-lg flex items-center justify-center bg-gray-50 cursor-pointer hover:border-gray-300">
-                    <div className="text-center">
-                      <div className="w-8 h-8 mx-auto mb-1 bg-gray-300 rounded-full flex items-center justify-center">
-                        <span className="text-xs font-bold">360°</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Video Thumbnail */}
-                  <div className="aspect-square border-2 border-gray-200 rounded-lg flex items-center justify-center bg-gray-50 cursor-pointer hover:border-gray-300">
-                    <Play className="w-6 h-6 text-gray-400" />
-                  </div>
-
-                  {/* Product Images for Current Combination */}
-                  {currentCombinationImages.map((image, index) => (
+                  {mediaItems.map((media, index) => (
                     <div
                       key={index}
                       className={`aspect-square border-2 rounded-lg cursor-pointer overflow-hidden ${
-                        currentImageIndex === index ? "border-gray-900" : "border-gray-200 hover:border-gray-300"
+                        currentMediaIndex === index ? "border-gray-900" : "border-gray-200 hover:border-gray-300"
                       }`}
-                      onClick={() => setCurrentImageIndex(index)}
+                      onClick={() => setCurrentMediaIndex(index)}
                     >
-                      <img
-                        src={image.thumbnail || image.url}
-                        alt={`${product.name} ${selectedCombination.shape} ${selectedCombination.metalName} ${index + 1}`}
-                        className="w-full h-full object-cover"
-                      />
+                      {media.type === '360' ? (
+                        <img
+                          src={media.thumbnail}
+                          alt={media.alt}
+                          className="w-full h-full object-cover"
+                        />
+                      ) : media.type === 'video' ? (
+                        <div className="flex items-center justify-center bg-gray-50 h-full">
+                          <Play className="w-6 h-6 text-gray-400" />
+                        </div>
+                      ) : (
+                        <img
+                          src={media.thumbnail}
+                          alt={media.alt}
+                          className="w-full h-full object-cover"
+                        />
+                      )}
                     </div>
                   ))}
-
-                  {/* Model Images */}
-                  <div className="aspect-square border-2 border-gray-200 rounded-lg cursor-pointer overflow-hidden hover:border-gray-300">
-                    <img
-                      src="/placeholder.svg?height=100&width=100&text=Model"
-                      alt="Model wearing ring"
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
                 </div>
               </div>
 
-              {/* Main Image */}
               <div className="col-span-10">
-                <div className="aspect-square bg-gray-50 rounded-lg overflow-hidden">
-                  <img
-                    src={currentCombinationImages[currentImageIndex]?.url || selectedCombination.image}
-                    alt={`${product.name} - ${selectedCombination.shape} ${selectedCombination.metalName}`}
-                    className="w-full h-full object-contain"
-                  />
+                <div
+                  ref={mainImageRef}
+                  className={`lg:h-[30rem] lg:w-[30rem] aspect-square bg-gray-50 rounded-lg overflow-hidden relative ${
+                    mediaItems[currentMediaIndex]?.type === 'image' ? 'cursor-zoom-in' : 'cursor-default'
+                  }`}
+                  onClick={handleImageClick}
+                  onMouseMove={handleMouseMove}
+                  onMouseDown={handleMouseDown}
+                  onMouseUp={handleMouseUp}
+                  onMouseLeave={handleMouseLeave}
+                >
+                  {mediaItems[currentMediaIndex]?.type === 'image' && (
+                    <img
+                      src={mediaItems[currentMediaIndex].url}
+                      alt={mediaItems[currentMediaIndex].alt}
+                      className="w-full h-full object-contain transition-transform duration-200"
+                      style={{
+                        transform: `scale(${zoom})`,
+                        transformOrigin: `${zoomPosition.x}% ${zoomPosition.y}%`
+                      }}
+                    />
+                  )}
+                  {mediaItems[currentMediaIndex]?.type === '360' && (
+                    <img
+                      src={mediaItems[currentMediaIndex].url}
+                      alt={mediaItems[currentMediaIndex].alt}
+                      className="w-full h-full object-contain transition-transform duration-200"
+                      style={{
+                        transform: `scale(${zoom})`,
+                        transformOrigin: `${zoomPosition.x}% ${zoomPosition.y}%`
+                      }}
+                    />
+                  )}
+                  {mediaItems[currentMediaIndex]?.type === 'video' && (
+                    <video
+                      className="w-full h-full object-contain"
+                      controls
+                    >
+                      <source src={mediaItems[currentMediaIndex].url} type="video/mp4" />
+                      Your browser does not support the video tag.
+                    </video>
+                  )}
+                  {mediaItems[currentMediaIndex]?.type === 'model' && (
+                    <div className="w-full h-full flex items-center justify-center bg-gray-100">
+                      <span className="text-gray-600">3D Model Placeholder (GLB not rendered in this example)</span>
+                    </div>
+                  )}
                 </div>
                 <div className="text-center mt-4 text-sm text-gray-600">
-                  {selectedCombination.shape} {selectedCombination.metalName} - {selectedCarat} Total Carat
+                  {selectedCombination.shape} {selectedCombination.metalName} - {selectedCarat} Total Carat - {selectedSize}
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Right Side - Product Details */}
           <div ref={rightSideRef} className="col-span-5">
             <div className="space-y-8">
-              {/* Product Title and Price */}
               <div>
                 <h1 className="text-3xl font-bold text-gray-900 mb-2">{product.name} Lab Grown Diamonds Bracelet</h1>
                 <div className="text-lg text-gray-600 mb-4">
@@ -437,45 +575,28 @@ export default function ProductDetail({ slug }) {
                 <div className="text-sm text-gray-600 mb-6">Ships in {selectedCombination.shipsIn} ⓘ</div>
               </div>
 
-              {/* All Combinations Display */}
-              {/* <div>
-                <h3 className="font-medium text-gray-900 mb-4">CHOOSE YOUR COMBINATION</h3>
-                <div className="grid grid-cols-3 gap-3 mb-6">
-                  {allCombinations.map((combo) => (
-                    <div
-                      key={combo.id}
-                      className={`border-2 rounded-lg p-3 cursor-pointer transition-all ${
-                        selectedCombination.id === combo.id
-                          ? "border-gray-900 bg-gray-50"
-                          : "border-gray-200 hover:border-gray-400"
+              <div>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="font-medium text-gray-900">SIZE</span>
+                  <span className="text-sm text-gray-600">{selectedSize}</span>
+                </div>
+                <div className="flex gap-2 flex-wrap">
+                  {product.sizes?.map((size) => (
+                    <button
+                      key={size}
+                      className={`px-4 py-2 rounded-full text-sm border transition-all ${
+                        selectedSize === size
+                          ? "border-gray-900 bg-gray-900 text-white"
+                          : "border-gray-300 bg-white text-gray-700 hover:border-gray-400"
                       }`}
-                      onClick={() => handleCombinationSelect(combo)}
+                      onClick={() => handleSizeSelect(size)}
                     >
-                      <div className="aspect-square mb-2 rounded overflow-hidden">
-                        <img
-                          src={combo.thumbnail || combo.image}
-                          alt={`${combo.shape} ${combo.metalName}`}
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
-                      <div className="text-center">
-                        <div className="flex items-center justify-center gap-2 mb-1">
-                          <span className="text-lg">{shapeIcons[combo.shape.toLowerCase()] || "●"}</span>
-                          <div
-                            className="w-4 h-4 rounded-full border"
-                            style={{ backgroundColor: metalColors[combo.metal] || "#E8E8E8" }}
-                          />
-                        </div>
-                        <div className="text-xs text-gray-600 capitalize">{combo.shape}</div>
-                        <div className="text-xs text-gray-600">{combo.metalName}</div>
-                        <div className="text-sm font-medium text-gray-900 mt-1">${combo.price.toLocaleString()}</div>
-                      </div>
-                    </div>
+                      {size}
+                    </button>
                   ))}
                 </div>
-              </div> */}
+              </div>
 
-              {/* Carat Selection */}
               <div>
                 <div className="flex items-center justify-between mb-4">
                   <span className="font-medium text-gray-900">TOTAL CARAT</span>
@@ -498,11 +619,30 @@ export default function ProductDetail({ slug }) {
                 </div>
               </div>
 
-              {/* Add to Cart */}
               <div className="space-y-4">
-                <Button className="w-full bg-black text-white py-3 text-lg font-medium hover:bg-gray-800">
-                  ADD TO CART - ${selectedCombination.price.toLocaleString()}
-                </Button>
+                {isAddedToCart ? (
+                  <div className="flex gap-4">
+                    <Button 
+                      className="flex-1 bg-black text-black border border-gray-300 py-3 text-lg font-medium hover:bg-gray-50"
+                      onClick={handleContinueShopping}
+                    >
+                      CONTINUE SHOPPING
+                    </Button>
+                    <Button 
+                      className="flex-1 bg-black text-white py-3 text-lg font-medium hover:bg-gray-800"
+                      onClick={handleCheckout}
+                    >
+                      CHECKOUT
+                    </Button>
+                  </div>
+                ) : (
+                  <Button 
+                    className="w-full bg-black text-white py-3 text-lg font-medium hover:bg-gray-800"
+                    onClick={handleAddToCart}
+                  >
+                    ADD TO CART - ${selectedCombination.price.toLocaleString()}
+                  </Button>
+                )}
                 <div className="text-center text-sm text-gray-600">
                   Starting at $39/mo or 0% APR with <span className="font-medium">Affirm</span>
                   <br />
@@ -510,7 +650,6 @@ export default function ProductDetail({ slug }) {
                 </div>
               </div>
 
-              {/* Free Gift */}
               {product.freeGift && (
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <div className="flex items-center gap-3">
@@ -530,25 +669,24 @@ export default function ProductDetail({ slug }) {
                 </div>
               )}
 
-              {/* Settings */}
               <div>
                 <h3 className="font-medium text-gray-900 mb-4">SETTINGS</h3>
                 <div className="grid grid-cols-2 gap-4 text-sm">
                   <div>
-                    <div className="text-gray-600">Metal</div>
-                    <div className="font-medium">{selectedCombination.metalName}</div>
+                    <div className="text-gray-800">Metal</div>
+                    <div className="font-medium text-gray-400">{selectedCombination.metalName}</div>
                   </div>
                   <div>
                     <div className="text-gray-600">Shape</div>
-                    <div className="font-medium capitalize">{selectedCombination.shape}</div>
+                    <div className="font-medium capitalize text-gray-400">{selectedCombination.shape}</div>
                   </div>
                   <div>
                     <div className="text-gray-600">Style</div>
-                    <div className="font-medium">{product.settings.style}</div>
+                    <div className="font-medium text-gray-400">{product.settings.style}</div>
                   </div>
                   <div>
                     <div className="text-gray-600">SKU</div>
-                    <div className="font-medium">{selectedCombination.sku}</div>
+                    <div className="font-medium text-gray-400">{selectedCombination.sku}</div>
                   </div>
                   <div className="col-span-2">
                     <div className="text-gray-600">Sustainable, ethical, and recycled</div>
@@ -556,11 +694,11 @@ export default function ProductDetail({ slug }) {
                   </div>
                   <div>
                     <div className="text-gray-600">Side Diamonds Quality</div>
-                    <div className="font-medium">{product.settings.sideDiamondsQuality}</div>
+                    <div className="font-medium text-gray-400">{product.settings.sideDiamondsQuality}</div>
                   </div>
                   <div>
                     <div className="text-gray-600">Side Diamonds Origin</div>
-                    <div className="font-medium">{product.settings.sideDiamondsOrigin}</div>
+                    <div className="font-medium text-gray-400">{product.settings.sideDiamondsOrigin}</div>
                   </div>
                   <div className="col-span-2">
                     <div className="text-gray-600">Superior grade</div>
@@ -569,7 +707,6 @@ export default function ProductDetail({ slug }) {
                 </div>
               </div>
 
-              {/* Virtual Appointment */}
               <div className="border-t pt-6">
                 <div className="flex items-center gap-3 mb-4">
                   <div className="flex -space-x-2">
@@ -606,7 +743,6 @@ export default function ProductDetail({ slug }) {
                 </Button>
               </div>
 
-              {/* Features */}
               <div className="space-y-3">
                 {product.features.map((feature, index) => (
                   <div key={index} className="flex items-center gap-2 text-sm text-gray-600">
@@ -616,7 +752,6 @@ export default function ProductDetail({ slug }) {
                 ))}
               </div>
 
-              {/* Payment Options */}
               <div>
                 <div className="font-medium text-gray-900 mb-3">Safe Checkout</div>
                 <div className="flex items-center gap-2">
@@ -627,7 +762,6 @@ export default function ProductDetail({ slug }) {
                 </div>
               </div>
 
-              {/* Expandable Sections */}
               <div className="space-y-4">
                 <details className="border-t pt-4">
                   <summary className="flex items-center justify-between cursor-pointer font-medium text-gray-900">
@@ -654,7 +788,6 @@ export default function ProductDetail({ slug }) {
           </div>
         </div>
 
-        {/* Story Section - Below the main product area */}
         <div className="max-w-7xl mx-auto px-6 py-16 border-t">
           <div className="text-center mb-8">
             <h2 className="text-lg font-medium text-gray-900 mb-4">
@@ -664,7 +797,6 @@ export default function ProductDetail({ slug }) {
             <p className="text-gray-600">{product.description}</p>
           </div>
 
-          {/* Craftsmanship Section */}
           <div className="grid grid-cols-2 gap-8 items-center mb-8">
             <div>
               <img
@@ -701,7 +833,6 @@ export default function ProductDetail({ slug }) {
           </div>
         </div>
 
-        {/* Questions Section */}
         <div className="max-w-7xl mx-auto px-6 py-16 text-center border-t">
           <h3 className="text-xl font-bold text-gray-900 mb-4">Other Questions?</h3>
           <p className="text-gray-600 mb-6">We are here 24/7 to answer question you may have.</p>

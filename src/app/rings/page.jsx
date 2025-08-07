@@ -3,6 +3,7 @@ import { useState } from "react"
 import { ChevronRight, Filter, ArrowUpDown, X, Home } from "lucide-react"
 import ringsData from "@/data/rings.json"
 import { useRouter } from "next/navigation"
+import Link from "next/link"
 
 // Helper to get image based on selected shape & metal
 function getImage(ring, shape, metal) {
@@ -162,16 +163,17 @@ export default function Rings() {
 
   // Header Section Component (same as before)
   const HeaderSection = () => (
-    <div className="w-full bg-white border-b border-gray-200 py-6 px-4 relative">
+    <div className="w-full bg-white border-b border-gray-200 py-16 px-4 relative">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center text-sm text-gray-600 mb-6">
-          <button
+          <Link
+          href="/" 
             className="hover:text-gray-900 cursor-pointer flex items-center gap-1"
-            onClick={() => (window.location.href = "/")}
+           
           >
             <Home className="w-4 h-4" />
             <span>Home</span>
-          </button>
+          </Link>
           <ChevronRight className="w-4 h-4 mx-2" />
           <span className="text-gray-900 font-medium">Rings</span>
         </div>
